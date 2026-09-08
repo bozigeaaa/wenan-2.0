@@ -1,0 +1,4 @@
+interface:
+  display_name: "沙特营地防火脚本"
+  short_description: "生成SBC 801/Civil Defense防火口播脚本"
+  default_prompt: "围绕一个沙特自建营地防火话题，生成专业口播脚本。"

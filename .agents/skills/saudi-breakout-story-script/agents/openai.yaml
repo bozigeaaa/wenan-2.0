@@ -1,0 +1,4 @@
+interface:
+  display_name: "沙特破圈故事脚本"
+  short_description: "生成有事实依据的沙特生活、热点和行业见闻口播脚本。"
+  default_prompt: "使用 $saudi-breakout-story-script，依据已核实资料围绕这个沙特生活或行业见闻话题写一条中文口播稿；结构与表达由内容承诺和证据决定。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "数字人口播分镜"
+  short_description: "将确认口播稿拆成可剪辑的多语字幕分镜表"
+  default_prompt: "请使用 $digital-human-storyboard，将已确认的中文口播文案生成分镜脚本。"

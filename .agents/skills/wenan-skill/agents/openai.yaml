@@ -1,0 +1,4 @@
+interface:
+  display_name: "文案 Skill"
+  short_description: "统一入口，自动路由沙特短视频文案任务与规则"
+  default_prompt: "请使用 $wenan-skill，根据账号、主题、目标和资料情况生成中文短视频文案。"

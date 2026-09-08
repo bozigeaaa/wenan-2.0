@@ -1,0 +1,17 @@
+﻿.tmp/
+Script-Copy-Skills/
+node_modules/
+**pycache**/
+*.pyc
+
+# Local caches and credentials
+.firecrawl/
+.env
+.env.*
+!.env.example
+/%SystemDrive%/
+
+# Empty files left by shell commands
+/0
+/({title
+/x[[]1].startsWith('#')

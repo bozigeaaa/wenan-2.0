@@ -1,0 +1,4 @@
+interface:
+  display_name: "沙特移动卫浴脚本"
+  short_description: "生成沙特 TBOX/K 系列移动厕所、移动卫浴与卫生间脚本"
+  default_prompt: "$saudi-sanitary-unit-script 基于移动厕所与卫生间资料，写一条单点深度中文口播脚本。"

@@ -1,0 +1,96 @@
+{
+  "schema_version": 3,
+  "workflow_version": "semantic-promise-v3",
+  "orchestrator": "wenan-skill",
+  "humanizer": "humanizer",
+  "trigger_registry": ".agents/skills/references/generation-trigger-registry.md",
+  "quality_gate": ".agents/skills/references/b2b-content-quality-gate.md",
+  "compliance_review": ".agents/skills/references/compliance-wordlist.md",
+  "stages": [
+    "route_task",
+    "verify_evidence",
+    "lock_semantic_promise",
+    "check_promise_answerability",
+    "check_audience_value",
+    "draft",
+    "design_hook",
+    "dispatch_placement_check_if_triggered",
+    "oralization_review",
+    "check_content_coverage",
+    "recheck_oralization_if_content_changed",
+    "deduplicate_structure",
+    "recheck_oralization_if_dedup_changed",
+    "validate_promise_fulfillment",
+    "recheck_facts",
+    "run_b2b_quality_gate",
+    "run_compliance_review",
+    "deliver"
+  ],
+  "visible_title_handoff": false,
+  "temporary_state_scope": "current_task",
+  "temporary_state_required_fields": [
+    "object_and_context",
+    "decision_dimension",
+    "required_answer",
+    "answer_boundary",
+    "adjacent_non_substitutes",
+    "content_promise",
+    "audience_task",
+    "viewer_usable_result",
+    "provable_conclusion",
+    "claim_source_strength_map",
+    "applicability_boundaries",
+    "open_issues"
+  ],
+  "persistent_state_write": "confirmed_or_published_only",
+  "length_policy": {
+    "explicit_user_target": {
+      "phase": "pre_draft",
+      "rule": "Honor an explicit user character-count or duration request within verified evidence and natural delivery."
+    },
+    "reference_corpus_default": {
+      "phase": "pre_draft",
+      "rule": "Follow the flexible default length policy in generation-trigger-registry.md (approximately 500 Chinese characters, excluding title, tags and sources). No default minimum, hard maximum or fixed tolerance range; prioritize one complete evidence-supported promise. Do not pad with adjacent topics, fabricated cases or repeated conclusions."
+    }
+  },
+  "conditional_branches": {
+    "placement_eligibility": {
+      "dispatch_stage": "dispatch_placement_check_if_triggered",
+      "stage": "check_placement_eligibility",
+      "after_stage": "design_hook",
+      "before_stage": "oralization_review",
+      "entry_conditions": [
+        "user_requested_company_or_product",
+        "product_is_topic",
+        "news_selected_product"
+      ],
+      "canonical_entry_conditions": [
+        "explicit_company_or_product_request",
+        "product_topic",
+        "selected_product_news"
+      ]
+    }
+  },
+  "receipt_mode": {
+    "default": "hidden",
+    "show_when": [
+      "user_requested",
+      "workflow_exception"
+    ],
+    "expose_internal_reasoning": false
+  },
+  "stop_when": [
+    "open_issues_not_empty",
+    "evidence_conflict_unresolved",
+    "current_fact_not_verified",
+    "required_product_not_selected",
+    "placement_requested_but_not_qualified"
+  ],
+  "structure_signature": [
+    "main_relation",
+    "evidence_form",
+    "company_role",
+    "ending_form",
+    "surface_skeleton"
+  ]
+}

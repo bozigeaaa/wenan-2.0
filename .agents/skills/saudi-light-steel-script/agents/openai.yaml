@@ -1,0 +1,4 @@
+interface:
+  display_name: "沙特薄壁轻钢脚本"
+  short_description: "生成沙特薄壁轻钢、G550、围护系统与选型对比脚本"
+  default_prompt: "$saudi-light-steel-script 基于薄壁轻钢资料，写一条单点深度中文口播脚本。"

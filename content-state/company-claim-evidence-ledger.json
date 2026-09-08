@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-13",
+  "authoritative_sources": [
+    {
+      "source_id": "SRC-EC-INTRO",
+      "file": "knowledge/东方骆驼公司简介.txt",
+      "scope": "东方骆驼沙特实体、业务范围、本地化服务与月产能口径",
+      "authority": "正式公司简介",
+      "confirmed_by_user": true
+    },
+    {
+      "source_id": "SRC-ADV-V4",
+      "file": "knowledge/钧瀚产品优势分级分类总表_v4.xlsx",
+      "scope": "公司级优势、交付能力与产品口径；具体数值须按其来源与状态使用",
+      "authority": "正式优势总表",
+      "confirmed_by_user": true
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "EC-001",
+      "claim": "东方骆驼对应的沙特落地实体为 ALJMAL EASTERN INTERNATIONAL INDUSTRIAL COMPANY，主体位于利雅得。",
+      "approved_public_wording": "东方骆驼的沙特落地实体位于利雅得。",
+      "source_ids": ["SRC-EC-INTRO", "SRC-ADV-V4"],
+      "evidence": "公司简介列出 ALJMAL EASTERN INTERTIONAL INDUSTRIAL COMPANY 的利雅得地址；优势总表将其列为沙特落地实体。",
+      "classification": "stable_company_fact",
+      "requires_project_confirmation": false,
+      "requires_periodic_review": false,
+      "do_not_extend_to": ["不得据此推断覆盖所有地区、所有项目或任何具体交期。"]
+    },
+    {
+      "claim_id": "EC-002",
+      "claim": "公司提供临时建筑及配套防护解决方案，并涵盖多类临时建筑产品。",
+      "approved_public_wording": "面向工地临建及配套需求，提供相应产品与落地支持。",
+      "source_ids": ["SRC-EC-INTRO"],
+      "evidence": "公司简介说明工地临时用地、临时建筑及配套防护，以及钢结构厂房、薄壁轻钢、箱房、活动板房、岗亭和围墙等产品范围。",
+      "classification": "stable_company_fact",
+      "requires_project_confirmation": false,
+      "requires_periodic_review": false,
+      "do_not_extend_to": ["不得把全部产品范围写成每个项目均可供货或均适配。"]
+    },
+    {
+      "claim_id": "EC-003",
+      "claim": "公司资料支持沙特本地制造/生产与本地化服务能力。",
+      "approved_public_wording": "东方骆驼具备沙特本地制造与本地化服务能力。",
+      "source_ids": ["SRC-EC-INTRO", "SRC-ADV-V4"],
+      "evidence": "公司简介写明集研发、生产、供应于一体和本地化服务；优势总表 G01、L01、K13 写明利雅得自有工厂/生产基地及本地预制。",
+      "classification": "stable_company_fact",
+      "requires_project_confirmation": false,
+      "requires_periodic_review": true,
+      "do_not_extend_to": ["不得据此承诺任何型号均为本地制造。", "不得据此承诺不受外部物流影响。"]
+    },
+    {
+      "claim_id": "EC-004",
+      "claim": "公司资料支持本地仓储、配送、安装与全流程协同的能力口径。",
+      "approved_public_wording": "公司资料记录本地仓储、配送、安装与交付协同能力。",
+      "source_ids": ["SRC-ADV-V4"],
+      "evidence": "优势总表 G01 写明本地仓储、现场安装团队和全沙特远程技术支持；G02 写明设计、生产、运输、安装、调试、交付一体化。",
+      "classification": "stable_company_fact",
+      "requires_project_confirmation": false,
+      "requires_periodic_review": true,
+      "do_not_extend_to": ["不得把能力口径写成某项目已经完成配送、安装或验收。", "不得承诺具体到场时间、安装人数或覆盖范围。"]
+    },
+    {
+      "claim_id": "EC-005",
+      "claim": "标准常用品存在备货口径，但不公开承诺具体库存数量。",
+      "approved_public_wording": null,
+      "source_ids": ["SRC-ADV-V4"],
+      "evidence": "优势总表的备货口径为“常品有备货、可即时供货”，并注明为营销口径、不承诺具体数量。",
+      "classification": "project_variable",
+      "requires_project_confirmation": true,
+      "requires_periodic_review": true,
+      "publication_rule": "取得当期确认后，才可按确认内容形成公开表述；未确认时不进入成稿。",
+      "do_not_extend_to": ["不得写成所有型号永久现货。", "不得虚构库存量、锁货状态或具体交期。"]
+    },
+    {
+      "claim_id": "EC-006",
+      "claim": "优势总表记录配件全部自产的公司级口径。",
+      "approved_public_wording": "公司资料记录配件自产能力。",
+      "source_ids": ["SRC-ADV-V4"],
+      "evidence": "优势总表 G07 的事实/参数支撑写明“配件全部自产”。",
+      "classification": "stable_company_fact",
+      "requires_project_confirmation": false,
+      "requires_periodic_review": true,
+      "do_not_extend_to": ["不得承诺每种专用配件均有现货。", "不得承诺特定补件时效。"]
+    },
+    {
+      "claim_id": "EC-007",
+      "claim": "公司简介与优势总表记录月产能 20,000㎡ 的口径。",
+      "approved_public_wording": null,
+      "source_ids": ["SRC-EC-INTRO", "SRC-ADV-V4"],
+      "evidence": "公司简介写明“生产实力：20000 m2月产能”；优势总表 G07 记录“月产能20000㎡”。",
+      "classification": "sourced_metric",
+      "requires_project_confirmation": true,
+      "requires_periodic_review": true,
+      "publication_rule": "取得当期确认后，才可按确认内容形成公开表述；未确认时不进入成稿。",
+      "do_not_extend_to": ["不得把月产能写成工厂面积。", "不得据此承诺项目产能、排产优先级或具体交期。"]
+    },
+    {
+      "claim_id": "EC-008",
+      "claim": "优势总表记录现场安装团队超 100 人的口径。",
+      "approved_public_wording": null,
+      "source_ids": ["SRC-ADV-V4"],
+      "evidence": "优势总表 G01 的事实/参数支撑写明“现场安装团队超100人”。",
+      "classification": "sourced_metric",
+      "requires_project_confirmation": true,
+      "requires_periodic_review": true,
+      "publication_rule": "取得当期确认后，才可按确认内容形成公开表述；未确认时不进入成稿。",
+      "do_not_extend_to": ["不得把历史团队人数视为当前可投入项目人数。", "不得承诺现场班组规模或安装速度。"]
+    }
+  ]
+}

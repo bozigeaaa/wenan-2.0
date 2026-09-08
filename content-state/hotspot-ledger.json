@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-03",
+  "update_owner": "Codex",
+  "events": [
+    {
+      "event_id": "mawani-jeddah-logistics-centres-2026-07-18",
+      "event_name": "Mawani 在吉达伊斯兰港和 Al-Khumra 物流区签署物流中心建设与扩建合同",
+      "event_date": "2026-07-18",
+      "last_material_update_date": "2026-07-18",
+      "status": "active",
+      "source_records": [
+        {
+          "source_name": "Saudi Press Agency / Mawani",
+          "source_level": "A",
+          "publication_date": "2026-07-18",
+          "verified_at": "2026-08-13",
+          "url": "https://www.spa.gov.sa/fa/N2636577",
+          "verified_fact": "Mawani 签署七份合同，在吉达伊斯兰港和 Al-Khumra 物流区建设及扩建物流中心；公告披露相关设施用于仓储、集拼和再出口。"
+        }
+      ],
+      "relevance": "港口物流中心扩建信号 → 项目方可复核从港口到仓储、配送和现场交付的责任接口；不推断任何具体临建项目已获益或交期已缩短。",
+      "sensitivity": "normal",
+      "content_type": "project_logistics_signal",
+      "used_angles": [],
+      "use_count": 0,
+      "max_use_count": 1,
+      "write_eligibility": "eligible",
+      "freshness_note": "距核验日 26 天；可作为近一个月项目信号稿，标题不得写成当天突发热点。"
+    },
+    {
+      "event_id": "jazan-seawater-cooling-2026-07-14",
+      "event_name": "Jazan 初级及转化产业城海水冷却项目一期进度公告",
+      "event_date": "2026-07-14",
+      "last_material_update_date": "2026-07-14",
+      "status": "active",
+      "source_records": [
+        {
+          "source_name": "Saudi Press Agency",
+          "source_level": "A",
+          "publication_date": "2026-07-14",
+          "verified_at": "2026-08-13",
+          "url": "https://www.spa.gov.sa/en/N2634167",
+          "verified_fact": "SPA 报道 Jazan 初级及转化产业城海水冷却项目一期完成度为 98.33%。"
+        }
+      ],
+      "relevance": "工业园基础设施推进信号 → 可讨论工业项目进入设备、营地、临建和服务配套规划前，采购方应先核对项目阶段与现场需求；不推断该项目需要本公司产品或即将进场。",
+      "sensitivity": "normal",
+      "content_type": "project_signal",
+      "used_angles": [
+        {
+          "used_at": "2026-08-13",
+          "script_type": "professional_education",
+          "title": "项目接近完工，临建还该怎么判断？",
+          "angle": "项目进度接近完成时，先区分施工收尾、调试还是运营配套，再判断临建需求。",
+          "status": "drafted"
+        }
+      ],
+      "use_count": 1,
+      "max_use_count": 1,
+      "write_eligibility": "eligible",
+      "freshness_note": "距核验日 30 天；可作为项目进度信号稿，必须写明“7 月公告”或具体日期，不能称为当前热点。"
+    },
+    {
+      "event_id": "knowledge-economic-city-schools-contract-2026-07-12",
+      "event_name": "Knowledge Economic City 与 ASTRA Construction 签署 Riyadh Schools Complex 合同",
+      "event_date": "2026-07-12",
+      "last_material_update_date": "2026-07-12",
+      "status": "active",
+      "source_records": [
+        {
+          "source_name": "Saudi Exchange / Knowledge Economic City",
+          "source_level": "A",
+          "publication_date": "2026-07-12",
+          "verified_at": "2026-08-13",
+          "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anCat=91&anId=96735&cs=4310&locale=en",
+          "verified_fact": "Knowledge Economic City 披露其与 Astra Construction 签署 Riyadh Schools Complex 建筑、机电和外部工程合同。"
+        }
+      ],
+      "relevance": "正式合同信号 → 可用于解释项目方在合同落地后应拆分哪些临建/配套需求与责任节点；不根据合同本身推断现场已开工、工地人数或临建采购量。",
+      "sensitivity": "normal",
+      "content_type": "project_signal",
+      "used_angles": [],
+      "use_count": 0,
+      "max_use_count": 1,
+      "write_eligibility": "eligible",
+      "freshness_note": "距核验日超过 30 天；保留为项目背景/常青决策稿线索，不得包装为近期新闻。"
+    },
+    {
+      "event_id": "mawani-shipping-services-2026-03-22",
+      "event_name": "Mawani 在霍尔木兹紧张期间新增五项海运服务",
+      "event_date": "2026-03-22",
+      "last_material_update_date": "2026-03-22",
+      "status": "background",
+      "source_records": [
+        {
+          "source_name": "Saudi Press Agency / Mawani",
+          "source_level": "A",
+          "publication_date": "2026-03-22",
+          "verified_at": "2026-08-13",
+          "url": "https://www.spa.gov.sa/en/N2544115",
+          "verified_fact": "Mawani 公告称，在当时霍尔木兹紧张背景下新增五项海运服务。"
+        }
+      ],
+      "relevance": "历史物流应对案例 → 只可作为“项目物流预案应拆分港口、航线、仓储与现场交付责任”的背景，不可证明当前航运状态。",
+      "sensitivity": "high",
+      "content_type": "evergreen_background",
+      "used_angles": [],
+      "use_count": 0,
+      "max_use_count": 0,
+      "write_eligibility": "downgraded",
+      "freshness_note": "超过 30 天，且涉及敏感航运局势；不得称为近期热点。"
+    },
+    {
+      "event_id": "mawani-logistics-corridors-2026-03-12",
+      "event_name": "Mawani 与 ZATCA 启动西海岸港口物流走廊倡议",
+      "event_date": "2026-03-12",
+      "last_material_update_date": "2026-03-12",
+      "status": "background",
+      "source_records": [
+        {
+          "source_name": "Saudi Press Agency / Mawani",
+          "source_level": "A",
+          "publication_date": "2026-03-12",
+          "verified_at": "2026-08-13",
+          "url": "https://www.spa.gov.sa/en/N2534501",
+          "verified_fact": "Mawani 与 ZATCA 启动物流走廊倡议，目标之一是接收从东部地区及 GCC 港口改道至吉达伊斯兰港等红海港口的集装箱和货物。"
+        }
+      ],
+      "relevance": "历史物流机制信号 → 可作港口到现场并非同一交付节点的背景；不得推断当前货物正在改道或任一项目已经受影响。",
+      "sensitivity": "normal",
+      "content_type": "evergreen_background",
+      "used_angles": [],
+      "use_count": 0,
+      "max_use_count": 0,
+      "write_eligibility": "downgraded",
+      "freshness_note": "超过 30 天；只作背景，不能写成当前物流状态。"
+    },
+    {
+      "event_id": "humain-datavolt-oxagon-ai-data-center-2026-08-31",
+      "event_name": "HUMAIN 与 DataVolt 启动 NEOM Oxagon 人工智能数据中心建设",
+      "event_date": "2026-08-31",
+      "last_material_update_date": "2026-08-31",
+      "status": "active",
+      "source_records": [
+        {
+          "source_name": "NEOM",
+          "source_level": "A",
+          "publication_date": "2026-08-31",
+          "verified_at": "2026-09-02",
+          "url": "https://www.neom.com/en-us/newsroom/HUMAIN-and-DataVolt-to-develop-AI-data-center-in-NEOM",
+          "verified_fact": "NEOM 公告确认 HUMAIN 与 DataVolt 已在 Oxagon 启动人工智能数据中心建设；当前推进的 100MW 属于首期 360MW 的一部分，首个 100MW 预计于 2028 年可用。"
+        },
+        {
+          "source_name": "MEED",
+          "source_level": "C",
+          "publication_date": "2026-09-01",
+          "verified_at": "2026-09-02",
+          "url": "https://www.meed.com/humain-and-datavolt-start-oxagon-data-centre-work",
+          "verified_fact": "MEED 复核报道确认项目已开工、当前开发容量为 100MW，属于现场首期 360MW 的一部分。"
+        }
+      ],
+      "relevance": "数据中心进入施工阶段 → 若项目存在临时办公、住宿或辅助空间需求，项目方可复核打包箱配置口径；100MW 项目容量不能直接换算施工人数或箱房数量。",
+      "sensitivity": "normal",
+      "content_type": "project_signal",
+      "used_angles": [
+        {
+          "used_at": "2026-09-02",
+          "script_type": "professional_education",
+          "title": "100MW项目开建，箱房数量能按项目规模估吗？",
+          "angle": "不能根据数据中心的 100MW 项目容量估算现场箱房数量。",
+          "status": "drafted",
+          "account_type": "education",
+          "project_stage": "开工",
+          "brand_presence": "solution",
+          "cta_type": "self_check",
+          "publication_review": "待复盘"
+        }
+      ],
+      "use_count": 1,
+      "max_use_count": 1,
+      "write_eligibility": "eligible",
+      "freshness_note": "距成稿日 2 天；已完成官方原文与 MEED 复核，可作为当前项目开工信号稿。"
+    },
+    {
+      "event_id": "sarcc-mawref-worker-accommodation-riyadh-2026-02-09",
+      "event_name": "SARCC 与 MAWREF 签署北利雅得工人住宿项目初步条款",
+      "event_date": "2026-02-09",
+      "last_material_update_date": "2026-02-10",
+      "status": "background",
+      "source_records": [
+        {
+          "source_name": "SARCC",
+          "source_level": "A",
+          "publication_date": "2026-02-10",
+          "verified_at": "2026-09-02",
+          "url": "https://www.sarcc.sa/media/sarcc-signs-heads-of-terms-with-mawref-to-develop-worker-accommodation-project-in-riyadh",
+          "verified_fact": "SARCC 公告确认与 MAWREF 签署非约束性初步条款，拟在北利雅得开发 12,000 床位工人住宿项目，首期预计于 2029 年第一季度开始运营。"
+        },
+        {
+          "source_name": "TradeArabia",
+          "source_level": "C",
+          "publication_date": "2026-02-16",
+          "verified_at": "2026-09-02",
+          "url": "https://www.tradearabia.com/News/389331/PIF-unit-signs-up-Mawref-to-build-worker-residential-complex-in-Riyadh/EDU",
+          "verified_fact": "TradeArabia 复核报道确认条款为非约束性、项目拟设 12,000 个床位，首期运营目标为 2029 年第一季度。"
+        }
+      ],
+      "relevance": "住宿项目的开发与长期运营进入同一合作逻辑 → 可作为中长期住宿建筑在方案和合同阶段划分交付资料与运营维护责任的背景；不得推断项目已确定建筑结构或采购薄壁轻钢。",
+      "sensitivity": "normal",
+      "content_type": "evergreen_background",
+      "used_angles": [
+        {
+          "used_at": "2026-09-02",
+          "script_type": "professional_b2b",
+          "title": "开发和运营绑在一起，轻钢宿舍该把维护责任交给谁",
+          "angle": "建设交付与长期运营之间的维护责任闭环。",
+          "status": "drafted",
+          "account_type": "education",
+          "project_stage": "非约束性初步条款",
+          "brand_presence": "solution",
+          "cta_type": "self_check",
+          "publication_review": "待复盘"
+        }
+      ],
+      "use_count": 1,
+      "max_use_count": 1,
+      "write_eligibility": "downgraded",
+      "freshness_note": "距成稿日超过 30 天；只作为项目背景使用，正文写明 2026 年 2 月及非约束性条款，不包装为近期新闻。"
+    },
+    {
+      "event_id": "cimc-earth-hotel-riyadh-modular-shipment-2026-09-02",
+      "event_name": "中集Earth Hotel Riyadh模块化酒店项目启运",
+      "event_date": "2026-09-02",
+      "status": "active",
+      "sources": [
+        "https://www.cimc.com/en/index.php?a=show&c=index&catid=17&id=2312&m=content",
+        "https://www.modular.org/2025/05/21/cimc-modular-building-systems-pioneers-modular-hotel-in-saudi-arabia/"
+      ],
+      "relevance": "以酒店模块启运说明模块化建造方式与薄壁轻钢结构体系不能混为一谈",
+      "used_angles": [
+        {
+          "title": "利雅得模块化酒店启运，为什么不能直接叫薄壁轻钢",
+          "account_type": "education",
+          "project_stage": "模块启运",
+          "brand_presence": "solution",
+          "cta": "self_check",
+          "used_at": "2026-09-03"
+        }
+      ],
+      "max_use_count": 1,
+      "use_count": 1,
+      "eligible": false
+    }
+  ]
+}
