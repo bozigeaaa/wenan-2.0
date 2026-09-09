@@ -1,0 +1,3 @@
+-c constraints.txt
+scrapling[fetchers]==0.4.15
+markdownify==1.2.0

@@ -13,6 +13,7 @@ REQUIRED_SKILLS = [
     "digital-human-storyboard",
     "global-hotspot-industry-impact-script",
     "humanizer",
+    "scrapling",
     "saudi-brand-proof-script",
     "saudi-breakout-story-script",
     "saudi-camp-fire-script",

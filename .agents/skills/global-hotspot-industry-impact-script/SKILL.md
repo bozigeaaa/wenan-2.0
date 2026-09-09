@@ -45,6 +45,7 @@ Also inspect project sources when industry framing is needed:
 
 1. Verify the hotspot.
 - Read `references/hotspot-sourcing.md`.
+- 当读取方式选择 Scrapling 或用户要求安装/测试抓取环境时，读取项目内 `.agents/skills/scrapling/SKILL.md`。
 - Read `.agents/skills/references/company-soft-placement.md` before any company name or company capability enters a title or script.
    - Read `references/hotspot-ledger.md` and `content-state/hotspot-ledger.json` before looking for a topic.
    - Complete the P0 discovery pool in `hotspot-sourcing.md` first, then expand P1—P4 only as needed.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scrapling 新闻抓取"
+  short_description: "使用项目独立环境读取公开新闻，支持普通页面和需要浏览器渲染的页面"
+  default_prompt: "使用 $scrapling 检查项目抓取环境并读取这条公开新闻，说明实际读取结果。"

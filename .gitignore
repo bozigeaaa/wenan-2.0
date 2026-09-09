@@ -15,3 +15,8 @@ node_modules/
 /0
 /({title
 /x[[]1].startsWith('#')
+
+# Per-user news runtime and fetched content
+.news-venv/
+.news-tools/
+.news-output/
