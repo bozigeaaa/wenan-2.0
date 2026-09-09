@@ -153,7 +153,7 @@ description: Route Chinese B2B short-video title, script, revision, and storyboa
 仅在当前任务已有一份明确确认的最终文案，且用户要求分镜时执行。
 
 - `$digital-human-storyboard` 只拆分既有文案，不重新选题、改钩子、调整结构、口语化或调用 `$humanizer`。
-- 只输出固定七列表格：`镜号｜时间码｜中文字幕｜英文字幕｜阿拉伯语字幕｜分镜｜画面／素材建议`。
+- 默认按 `../storyboard-html-layout/SKILL.md` 交付 HTML 分镜表，保留固定七列：`镜号｜时间码｜中文字幕｜英文字幕｜阿拉伯语字幕｜分镜｜画面／素材建议`。
 - 第 01 镜前 0–3 秒在画面建议中承接既有钩子；后续镜头不强制制造钩子。
 - 存在多版确认稿且版本不明时，只询问要使用哪一版。
 
@@ -163,7 +163,7 @@ description: Route Chinese B2B short-video title, script, revision, and storyboa
 - 标题阶段：只输出真实可成稿的标题方向；新闻任务按需先输出核验卡并等待选品。
 - 标题选定：更新内部状态，不输出供用户搬运的流程文档。
 - 完整文案：标题、一份最终口播文案、必要资料出处。
-- 分镜：固定七列表格。
+- 分镜：默认交付可离线打开的 HTML 分镜表及链接，完整数据保留固定七列；布局读取 `../storyboard-html-layout/SKILL.md`。
 - 诊断、自检、素材建议、修改说明和运行回执仅在用户要求或流程异常时输出。
 
 ## 同事调用方式

@@ -27,7 +27,7 @@ description: Use when a confirmed Chinese B2B short-video script needs a digital
 
 ## 成功输出
 
-成功时只输出下列七列，列序不得改变：
+成功时默认按 `../storyboard-html-layout/SKILL.md` 生成可离线打开的 HTML 分镜表，并提供文件链接与预览；用户明确要求其他格式时遵从。完整数据保留以下七列，列序不得改变：
 
 固定表头文字：`镜号｜时间码｜中文字幕｜英文字幕｜阿拉伯语字幕｜分镜｜画面／素材建议`。
 
