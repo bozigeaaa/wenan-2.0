@@ -1,5 +1,6 @@
 from pathlib import Path
 import runpy
+import unittest
 
 
 TEST_ROOT = Path(__file__).resolve().parent
@@ -35,7 +36,20 @@ def main() -> None:
             for name, candidate in sorted(namespace.items())
             if name.startswith("test_") and callable(candidate)
         ]
-        if not test_names:
+        test_classes = [
+            candidate for candidate in namespace.values()
+            if isinstance(candidate, type) and issubclass(candidate, unittest.TestCase)
+            and candidate is not unittest.TestCase
+        ]
+        if test_classes:
+            suite = unittest.TestSuite(unittest.defaultTestLoader.loadTestsFromTestCase(cls)
+                                       for cls in test_classes)
+            result = unittest.TestResult()
+            suite.run(result)
+            total += result.testsRun
+            failures.extend((str(test), AssertionError(detail))
+                            for test, detail in result.failures + result.errors)
+        if not test_names and not test_classes:
             print(f"FAIL {path.name} has no test functions")
             raise SystemExit(1)
 

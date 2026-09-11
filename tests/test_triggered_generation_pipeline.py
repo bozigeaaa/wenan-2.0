@@ -104,10 +104,10 @@ def test_default_oral_length_is_applied_without_dropping_evidence() -> None:
     registry = read(TRIGGER_REGISTRY)
     for required in (
         "篇幅校准与内容覆盖门",
-        "默认按手册写约 300 字",
+        "以约 500 字作为完整口播稿的弹性篇幅参考",
         "正文不含标题、标签和资料出处",
-        "证据不足时允许更短",
-        "不删除限定",
+        "较短但已经讲清楚的稿件可以直接交付",
+        "不删掉必要条件",
         "不得用相邻知识、虚构案例或重复结论凑字数",
     ):
         assert required in registry

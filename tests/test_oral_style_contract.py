@@ -5,10 +5,12 @@ ROOT = Path(__file__).resolve().parents[1]
 REF = ROOT / '.agents/skills/references'
 
 
-def test_oral_style_contract_has_checkable_limits_and_fact_boundary():
+def test_oral_style_contract_preserves_gentle_tone_and_fact_boundary():
     text = (REF / 'expression-craft.md').read_text(encoding='utf-8')
-    for term in ('反问句禁用', '全文设问最多 2 处', '句子长短按意思和口播节奏安排', '每 100 字 2–4 处', '一个明确动作', '不能改变事实命题、限定条件、因果强度或责任关系'):
+    for term in ('平等、温和的提醒', '反问句禁用', '全文设问最多 2 处', '句子长短按意思和口播节奏安排', '一个明确动作', '不能改变事实命题、限定条件、因果强度或责任关系'):
         assert term in text, term
+    for stale in ('每 100 字 2–4 处', '开篇钩子必须带其中一个', '合计最多 1 次', '你先这样做', '新闻只作一句背景'):
+        assert stale not in text, stale
 
 
 def test_old_style_opt_outs_do_not_override_user_preference():
@@ -26,7 +28,7 @@ def test_style_is_wired_into_review_and_hook():
 
 def test_default_length_and_storyboard_scope():
     manifest = json.loads((REF / 'generation-manifest.json').read_text(encoding='utf-8'))
-    assert '300' in manifest['length_policy']['reference_corpus_default']['rule']
+    assert '500' in manifest['length_policy']['reference_corpus_default']['rule']
     text = (REF / 'expression-craft.md').read_text(encoding='utf-8')
     assert '分镜' in text and '不改写已确认文案' in text
 

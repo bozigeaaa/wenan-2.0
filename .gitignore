@@ -20,3 +20,6 @@ node_modules/
 .news-venv/
 .news-tools/
 .news-output/
+
+# Per-device Codex automation registration
+outputs/news/automation-local.json

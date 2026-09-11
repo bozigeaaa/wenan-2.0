@@ -1,0 +1,64 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "archiveDays": 15,
+  "firstLookbackDays": 15,
+  "overlapHours": 24,
+  "scope": "以沙特为主，覆盖影响沙特工程与营地的海湾和全球事件；收集新闻与文案生成独立。",
+  "categories": [
+    "工程项目",
+    "营地住宿",
+    "产品与材料",
+    "招投标",
+    "项目合规",
+    "航运物流"
+  ],
+  "products": [
+    "打包箱",
+    "移动卫浴",
+    "五金",
+    "薄壁轻钢"
+  ],
+  "priorityEntries": [
+    "https://news.google.com/",
+    "https://www.google.com/",
+    "https://x.com/",
+    "https://www.meed.com/",
+    "https://tenders.etimad.sa/"
+  ],
+  "querySeeds": [
+    "Saudi construction infrastructure project awarded tender",
+    "Saudi workers accommodation construction camp temporary facilities",
+    "Saudi modular prefabricated buildings construction materials",
+    "Saudi tender procurement prequalification awarded contract",
+    "Saudi construction building fire safety regulation official",
+    "Saudi port shipping carrier operational update freight"
+  ],
+  "arabicSeeds": [
+    "السعودية مشاريع ترسية عقود مقاولات",
+    "منافسات سكن عمال مواد بناء",
+    "موانئ السعودية شحن تحديث"
+  ],
+  "shippingEntries": [
+    "https://www.maersk.com/news/",
+    "https://www.hapag-lloyd.com/en/services-information/news.html"
+  ],
+  "referenceSources": "渠道优先级与扩展来源以 hotspot-sourcing.md 为准；每轮按实际访问记录。",
+  "dailyRunTimes": [
+    "09:00",
+    "14:00"
+  ],
+  "retrieval": {
+    "minimumTools": 2,
+    "preferredTools": [
+      "scrapling",
+      "firecrawl"
+    ],
+    "allowedTools": [
+      "scrapling",
+      "firecrawl",
+      "web-search",
+      "browser"
+    ],
+    "fallbackRule": "默认工具不可用时用另一种实际可用工具补足；同一工具的不同模式只算一种，仍不足两种时标记本轮partial。"
+  }
+}

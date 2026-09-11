@@ -403,7 +403,7 @@ def test_humanizer_enforces_shared_oral_style_without_changing_facts() -> None:
     humanizer = read(HUMANIZER)
     for expected in (
         "expression-craft.md",
-        "直接对话、句长、口语密度、反问和设问",
+        "理解、朗读、重复表达和语气",
         "不达口语标准",
         "不能只换几个同义词交差",
         "事实命题、限定条件、因果强度和责任关系",
