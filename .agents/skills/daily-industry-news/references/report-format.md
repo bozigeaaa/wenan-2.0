@@ -2,7 +2,9 @@
 
 每轮先写 .news-output/daily-YYYY-MM-DD.json，通过 scripts/daily_news.py publish 发布。使用 UTF-8 JSON，禁止 JSON 外附解释。可参照 outputs/news/ 中已有日报的结构，事实与日期只采用本轮取得的内容。
 
-顶层必填：schemaVersion=1；collectedDate 为北京时间实际收录日 YYYY-MM-DD；collectedAt 为带时区的实际采集时间；timeZone=Asia/Shanghai；window 为实际检索窗口说明；scope 为实际范围；channels 为三列数组（渠道名、实际访问状态、取得内容或失败原因）；items 为所有收录条目；run 为本轮执行状态。
+顶层必填：schemaVersion=1；collectedDate 为日期筛选所用归档日 YYYY-MM-DD（默认实际收录日，周一补录的周末新闻按已核实的原文发布日期归入对应周六、周日）；collectedAt 为带时区的实际采集时间；timeZone=Asia/Shanghai；window 为实际检索窗口说明；scope 为实际范围；channels 为三列数组（渠道名、实际访问状态、取得内容或失败原因）；items 为所有收录条目；run 为本轮执行状态。
+
+周末补录档案的 collectedAt、verification.checkedAt、run.startedAt 和 run.completedAt 保留实际采集／核验时间。可记录 backfill={sourceDate, performedAt, basis}，sourceDate 是实际采集日，performedAt 是实际归档调整时间，basis 说明按原文发布日期归档。window 和条目 update 必须显示实际补录日；仅补录的档案不填 run.slot 或伪造 completedSlots。已有档案保留真实执行过的批次。跨日迁移时在条目 previousIds 保存原 NEWS 编号，原档案的 relocatedItems 记录新旧编号映射；该档案后续新增编号须大于现存及已迁出编号的最大值，避免复用旧编号；总新闻数按去重事件统计，归档迁移不算重新检索。
 
 定时批次的 run.slot 必填09:00或14:00，使用 due 返回的批次；手动首轮可不填。completedSlots 由发布程序合并当天实际成功完成的批次，不手工冒填。上午完成后下午仍须采集。
 
@@ -24,6 +26,16 @@ items 每条必填：
 证据文件放 outputs/news/evidence-YYYY-MM-DD/；访问日志记录渠道、具体入口/关键词、工具/模式、抓取时间、正文/列表/摘要/受限层级与结果。JSON 和 HTML 中不得只写“待系统核验”“稍后核实”。未通过记录也必须完成本轮可执行查证，列出实际缺口。
 
 renderer 拒绝缺核验时间、缺方法/结论、状态矛盾、笼统待核验枚举、无来源链接、未通过却无缺失原因等输入。程序只能校验字段完整，真假和证据强度须由收集执行者读原文判断。
+
+
+## 周末补录与计数
+
+执行流程以 ../SKILL.md 的“周一周末补查”为准。以下为归档字段与计数口径：
+
+- 归档日取已核实原文标示的发布日期；published 保留日期及可获得的来源时区。event 仍独立记录事件或生效日期。
+- 每份档案的 run.newCount 只统计本轮首次收录、归入该日的不同事件或实质性新阶段；已有记录仅补来源或核验结论变化计入 run.updatedCount。同一条在同一轮不同时计作新增和更新。
+- 仅迁移日期不计新增或核验更新，单列迁移数量；如果同时补齐证据并更新结论，只记一次核验更新。汇总本轮三个日期时，迁移前后按同一事件计一次。
+- report.items 的长度是该归档日累计收录数，与本轮新增数区分；已核验和未通过之和应等于累计收录数。手动补查不冒填 run.slot；保留已有 completedSlots，周一批次状态不写入周末档案。
 
 ## 双工具记录
 
