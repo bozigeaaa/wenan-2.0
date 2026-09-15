@@ -15,7 +15,7 @@ Treat these as high-risk. Use them only when confirmed by local files, official 
 - Absolute prohibition, universal applicability, perfect-coverage, or no-exception claims.
 - Competitor prevalence, market-wide practice, exact failure-time, or categorical non-performance claims.
 - Sole-answer or sole-compliant-solution claims.
-- Company/factory facts: Eastern Camel capability, local factory, local stock, delivery time, capacity, and `15000㎡` factory area.
+- Specific inventory quantities, delivery times, capacity metrics, and `15000㎡` factory area. Ordinary company business follows `../../references/company-soft-placement.md`; local manufacturing or service descriptions supplied by the user do not require separate proof files.
 
 ## How To Use High-Risk Facts
 

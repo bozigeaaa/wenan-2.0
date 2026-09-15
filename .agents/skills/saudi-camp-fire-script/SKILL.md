@@ -60,8 +60,8 @@ Read `references/fire-topic-library.md` when choosing or splitting topics.
 
 2. Apply the company/product answer gate only when triggered.
    - Follow the observable trigger conditions in `../references/generation-trigger-registry.md`. When the registry does not open this branch, skip the detailed placement check and do not add a company or product by default.
-   - 对公司与产品分别执行植入资格、同链角色和证据检查；只有通过者才能写入正文。
-   - 公司、产品、工厂、库存、本地交付、`15000㎡` 等具体事实仍须按资料和证据边界核验；没有帮助回答同一判断变量的事实就不写。
+   - 公司与产品按 `company-soft-placement.md` 自然回应本篇问题，普通业务按用户信息使用；消防性能、认证和合规结论仍按本专项核验。
+   - 公司、产品、工厂与本地交付的普通介绍按共享公司规则使用；具体库存、`15000㎡` 等数字按其事实口径处理，不强制写数字，没有帮助回答同一判断变量的事实就不写。
    - 如果公司或产品候选无法参与兑现内容承诺，直接取消该植入；不得仅为保留植入转换角度或增加无关痛点。
    - Factory area and `15000㎡` are only relevant when the point is local manufacturing scale, production capacity, or delivery certainty. Do not use them as a generic credibility close.
 

@@ -14,7 +14,7 @@ Use these when confirmed by local sources, user confirmation, or reliable curren
 - Odor, waterproofing, anti-corrosion, anti-rust, high-temperature resistance, antibacterial, or "easy cleaning" claims.
 - Saudi labor/camp sanitation rules, inspection requirements, fines, client acceptance, or compliance outcomes.
 - Competitor names, market share, current mainstream Saudi alternatives, or product performance comparisons.
-- Company/factory facts: local factory, local stock, delivery time, capacity, and `15000㎡` factory area.
+- Specific inventory quantities, delivery times, capacity metrics, and `15000㎡` factory area. Ordinary company business follows `../../references/company-soft-placement.md`; local manufacturing or service descriptions supplied by the user do not require separate proof files.
 
 ## Parameter Use
 

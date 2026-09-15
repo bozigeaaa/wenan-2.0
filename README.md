@@ -56,7 +56,7 @@
 项目总规则。这里定义了脚本文案的工作流、内容类型判断、事实核实要求、输出格式、调门红线和资料出处规则。Codex 处理本项目任务时应优先遵循它。
 
 `knowledge/`  
-公司资料知识库。里面包含产品介绍、公司介绍、沙特行业认知、参数表、PDF 画册、Excel 表格和从文档中抽取出的文本。涉及参数、规格、认证、法规、交付能力等事实时，应回到这里的原始资料核实。
+公司资料知识库。里面包含产品介绍、公司介绍、沙特行业认知、参数表、PDF 画册、Excel 表格和从文档中抽取出的文本。涉及精确技术参数、规格、认证、法规等事实时，应回到相关原始资料核实。公司日常业务按共享公司规则直接使用用户提供的信息，不要求逐句补交证明文件。
 
 `knowledge/AI资料导航索引.md`  
 知识库导航入口。开始写脚本前，先读它，用来判断应该读取哪些资料文件。它不是最终事实源，不能替代原始 Excel、PDF、DOCX、TXT。
@@ -127,9 +127,9 @@
 ## 维护建议
 
 ### 知识库同步 checklist（新增/修改资料后必须过一遍）
-- [ ] 新增公司资料优先放入 `knowledge/`，不入库不写稿。
+- [ ] 新增长期复用的公司资料可放入 `knowledge/`；用户当次提供的普通业务信息可直接用于稿件，不以入库为前提。
 - [ ] 新增/修改资料后，同步更新 `knowledge/AI资料导航索引.md`（文件清单、日期、非事实源标注）。
-- [ ] 涉及公司能力、参数、产能、库存、交期、认证等硬事实的变更，同步更新 `content-state/company-claim-evidence-ledger.json` 证据台账（区分 stable_company_fact / sourced_metric / project_variable）。
+- [ ] 维护已入库的参数、产能、库存、交期、认证等资料时，同步更新 `content-state/company-claim-evidence-ledger.json` 证据台账（区分 stable_company_fact / sourced_metric / project_variable）。
 - [ ] 涉及新闻、招标、项目动态的变更，同步更新 `content-state/hotspot-ledger.json` 热点台账。
 - [ ] 若新增/删除/重命名 skill 或共享规则文件，同步更新 `tests/test_structure_health.py` 的引用检查与对应测试。
 - [ ] 若新增/修改交接文档，先更新 `docs/README.md` 导航，避免多份文档并存无人知道主次。

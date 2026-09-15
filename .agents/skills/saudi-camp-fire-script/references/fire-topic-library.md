@@ -2,7 +2,7 @@
 
 Pick one content promise per video. The items below define evidence scopes, not title wording, question forms, or script structures.
 
-只在 `generation-trigger-registry.md` 打开植入条件分支时，才检查公司或产品是否有证据并能帮助完成同一判断变量；通过才写入。
+只在 `generation-trigger-registry.md` 打开植入条件分支时，才按 `company-soft-placement.md` 检查公司或产品能否帮助完成同一判断变量；普通业务可直接使用用户信息，消防结论仍须核验；通过才写入。
 
 ## Recommended Single-Point Topics
 

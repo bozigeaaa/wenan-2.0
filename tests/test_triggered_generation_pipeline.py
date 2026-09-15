@@ -277,6 +277,7 @@ def test_structure_dedup_uses_meaning_not_sentence_library_indices() -> None:
     for retired_pre_draft_dimension in ("action_sequence", "ending_task"):
         assert retired_pre_draft_dimension not in entry_schema
 
-    assert "只有同样受证据支持的候选" in registry
+    assert "不把签名相同直接作为否决条件" in registry
+    assert "多样性不得覆盖真实性" in registry
     assert "没有历史记录" in registry
     assert "不得声称" in registry

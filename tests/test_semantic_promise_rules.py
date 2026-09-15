@@ -629,7 +629,8 @@ def test_pending_or_expired_claims_stay_out_of_the_finished_script() -> None:
     ):
         assert deprecated not in combined, deprecated
 
-    assert "没有当前证据支持时不写" in read(COMPANY_CLAIM_LEDGER)
+    assert "过期数字不直接复用" in read(COMPANY_CLAIM_LEDGER)
+    assert "普通业务介绍不因历史条目过期而一并阻断" in read(COMPANY_CLAIM_LEDGER)
     assert "不进入成稿" in read(AGENTS)
     assert "omit it from the script, obtain supporting evidence, narrow the content promise, or stop" in fire_skill
     assert "omit it from the script, obtain supporting evidence, narrow the content promise, or stop" in light_steel_skill

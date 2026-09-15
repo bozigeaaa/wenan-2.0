@@ -49,7 +49,7 @@ def test_soft_placement_rule_is_connected_to_the_runtime_entry_and_gates() -> No
         assert_contains(read(path), "company-soft-placement.md", label)
 
     hotspot = read(HOTSPOT_SKILL)
-    assert_contains(hotspot, "东方骆驼才可随产品自然展示一次", "qualified hotspot company mention")
+    assert_contains(hotspot, "东方骆驼可随产品自然展示一次", "qualified hotspot company mention")
     assert_contains(hotspot, "不构成公司参与、供货或服务该新闻项目的证明", "hotspot no project-participation inference")
 
 
@@ -62,7 +62,8 @@ def test_live_project_variables_are_omitted_instead_of_disclaimed() -> None:
 
     assert_contains(project_rules, "没有当期确认资料时不写", "project variable omission")
     assert_contains(claim_guide, "没有当期确认资料时不写", "claim-ledger omission")
-    assert_contains(topic_loop, "没有当期确认资料时不写", "topic-loop omission")
+    assert_contains(topic_loop, "company-soft-placement.md", "topic-loop shared fact boundary")
+    assert_contains(read(SOFT_PLACEMENT), "没有当期确认资料时不写", "shared variable omission")
     assert_contains(local_delivery, "没有当期确认资料时不写", "local-delivery omission")
     assert_contains(sanitary_facts, "不写具体时长", "sanitary install-time omission")
     assert "具体方案仍按项目要求确认" not in topic_loop

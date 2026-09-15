@@ -17,7 +17,7 @@ Create Chinese short-video scripts that help 东方骆驼 accounts break out of 
 
 ## Core Rule
 
-只在用户明确要求公司/产品、产品本身就是本期主题，或新闻流程已锁定适配产品时，才读取 `.agents/skills/references/company-soft-placement.md` 做详细植入资格审查。只有公司或产品具备已核实证据，并帮助完成同一内容承诺时才写入；其他故事稿不主动寻找品牌桥。
+只在用户明确要求公司/产品、产品本身就是本期主题，或新闻流程已锁定适配产品时，才读取 `.agents/skills/references/company-soft-placement.md` 做详细植入资格审查。公司或产品按该共享规则使用用户业务信息并帮助完成同一内容承诺时才写入；其他故事稿不主动寻找品牌桥。
 
 ## Required Sources
 

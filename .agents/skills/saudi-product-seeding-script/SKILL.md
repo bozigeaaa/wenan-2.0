@@ -9,7 +9,7 @@ description: Use when generating or revising Chinese B2B product-seeding short-v
 
 Create product种草 scripts for viewers already comparing solutions. The script should not dump parameters or shout slogans. It should help a buyer understand one evidenced tradeoff, condition, mechanism, responsibility, or wrong-choice risk that fulfils the locked content promise.
 
-本 Skill 由产品主题触发，因此进入 `placement_eligibility` 条件分支并读取 `.agents/skills/references/company-soft-placement.md` 做植入资格检查。产品或公司只有通过同链角色与证据检查才写入；不具备资格就不植入，不把品牌名称或能力当成固定收尾。
+本 Skill 由产品主题触发，因此进入 `placement_eligibility` 条件分支并读取 `.agents/skills/references/company-soft-placement.md` 做植入资格检查。普通业务信息按该共享规则直接使用，精确参数按本专项核验；产品或公司自然回应本篇问题时写入；不具备资格就不植入，不把品牌名称或能力当成固定收尾。
 
 ## 适用场景
 

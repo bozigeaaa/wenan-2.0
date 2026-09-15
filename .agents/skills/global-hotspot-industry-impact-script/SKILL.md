@@ -9,8 +9,8 @@ description: Use when current international or Saudi project news must be found,
 
 Turn current international hotspots and Saudi project news into verified, product-selectable topics for people doing Saudi temporary construction, camps, prefabricated buildings, logistics, procurement, or site delivery. The value is not "chasing news"; it is proving one news-to-project-to-product chain before title or script work begins.
 
-Default first output is a Chinese news verification card, not a completed script. After the user selects a product whose fit has passed verification, title candidates must preserve that product and its verified fit reason, and the product must help fulfil the same selected impact promise in the script. 这一“新闻已选产品”分支须按 `.agents/skills/references/company-soft-placement.md` 检查同链角色和证据；东方骆驼名称仅在品牌归属与植入资格成立时自然出现，具体公司能力必须单独核验。不得暗示东方骆驼与新闻项目存在参与关系。
-新闻核验卡完成产品适配后，只有品牌归属已核实且公司名称也通过植入资格检查，东方骆驼才可随产品自然展示一次；这不构成公司参与、供货或服务该新闻项目的证明，任何具体公司能力仍须单独核验。
+Default first output is a Chinese news verification card, not a completed script. After the user selects a product whose fit has passed verification, title candidates must preserve that product and its verified fit reason, and the product must help fulfil the same selected impact promise in the script. 这一“新闻已选产品”分支按 `.agents/skills/references/company-soft-placement.md` 使用用户业务信息和相关资料，自然讲清公司怎样回应本篇问题，植入资格不另设普通公司能力证明手续。不得暗示东方骆驼与新闻项目存在参与关系。
+新闻核验卡完成产品适配后，按用户信息或已有资料确定产品与公司对应关系，东方骆驼可随产品自然展示一次；这不构成公司参与、供货或服务该新闻项目的证明。已核验新闻和已选产品在同一任务内沿用，不重复核验卡；新增实质性事实或实时进展再核验。
 
 ## 适用场景
 
@@ -33,17 +33,17 @@ It is not a product conversion skill, market panic generator, or news summary.
 
 ## Required Sources
 
-Always browse for current hotspot facts. Use current date and absolute dates when comparing "latest", "today", "recently", or "now".
+Browse for unverified hotspot facts or new substantive developments; reuse facts already verified in this task within their original scope without repeating the card or product selection. Use current date and absolute dates when comparing "latest", "today", "recently", or "now".
 
 Also inspect project sources when industry framing is needed:
 
 - `knowledge/AI资料导航索引.md`
 - `knowledge/沙特临建行业认知.xlsx`
-- `knowledge/钧瀚产品优势分级分类总表_v4.xlsx` and the relevant product source for a user-selected, fit-approved product; read company sources only when evaluating or using a separately qualified company mention or capability.
+- `knowledge/钧瀚产品优势分级分类总表_v4.xlsx` and the relevant product source for a user-selected, fit-approved product; use ordinary company business information under `company-soft-placement.md`; read additional company sources only when needed for this topic.
 
 ## Workflow
 
-1. Verify the hotspot.
+1. Verify the hotspot (skip completed verification and selection steps when reusing the same facts).
 - Read `references/hotspot-sourcing.md`.
 - 当读取方式选择 Scrapling 或用户要求安装/测试抓取环境时，读取项目内 `.agents/skills/scrapling/SKILL.md`。
 - Read `.agents/skills/references/company-soft-placement.md` before any company name or company capability enters a title or script.
@@ -61,7 +61,7 @@ Also inspect project sources when industry framing is needed:
    - Require a second chain from that project effect to at least one verified product: 打包箱、移动卫浴、五金或薄壁轻钢.
    - If the product category is already locked, do not substitute news for another product. Use the feedback and evergreen fallback in the sourcing rules.
 
-3. Output the news verification card and stop.
+3. For a new selection, output the news verification card and stop.
    - Use the exact card contract in `references/hotspot-sourcing.md`.
    - List every genuinely eligible product with a separate reason.
    - The card locks only verified facts, unsupported inferences, and product-fit reasons. It must not preselect or display a content promise, structure route, hook, conclusion, or ending.
@@ -82,7 +82,7 @@ Also inspect project sources when industry framing is needed:
    - For Saudi construction, urban development, infrastructure, industrial-city, transport, logistics, or project news, read `.agents/skills/references/b2b-topic-conversion-loop.md` before selecting the script angle. Record the project stage and reject any product link that is not naturally supported by the selected site-support, delivery, or operation impact variable.
    - Route the selected product to `$saudi-light-steel-script`, `$saudi-sanitary-unit-script`, `$saudi-product-seeding-script`, or the closest verified product route.
    - The selected product must explain the same impact point in the body; do not reserve it for a closing advertisement.
-   - 用户选定且适配通过的产品必须用其已核实机制帮助完成同一判断变量与必须答案。是否出现东方骆驼名称，须另行通过品牌归属、同链角色与植入资格检查；库存、交期、生产、配送、安装、售后等具体公司能力还必须逐项核验。不得把公司名称单独追加为广告，也不得由新闻事实推导公司已参与、供货或服务该项目。
+   - 用户选定且适配通过的产品必须用其已核实机制帮助完成同一判断变量与必须答案。东方骆驼名称与日常业务介绍按 `company-soft-placement.md` 使用用户信息，直接回应本篇问题；实时库存、交期与具体项目结果仍按该文件的事实边界处理。不得把公司名称单独追加为广告，也不得由新闻事实推导公司已参与、供货或服务该项目。
 
 7. Prevent repetition and downgrade stale news.
    - Before drafting, use the ledger to check whether the same event or angle has already been used.

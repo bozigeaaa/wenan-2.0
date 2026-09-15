@@ -46,7 +46,7 @@ If the topic is mainly SBC 801, Civil Defense, Salamah, fire separation, egress,
 
 One video fulfills one light-steel content promise. Do not turn one script into a full product catalog.
 
-仅当 `../references/generation-trigger-registry.md` 打开 `placement_eligibility` 条件分支时，才读取 `.agents/skills/references/company-soft-placement.md` 并检查植入资格。公司或产品还须有已核实证据，并在同一判断变量的答案中承担必要角色；资格不成立就不植入。
+仅当 `../references/generation-trigger-registry.md` 打开 `placement_eligibility` 条件分支时，才读取 `.agents/skills/references/company-soft-placement.md` 并检查植入资格。普通公司业务按该共享规则使用用户信息，精确技术参数仍按本专项核验；公司内容自然回应同一判断变量；资格不成立就不植入。
 
 Title, opening, parameters, product landing, and any final line must fulfill the same semantic promise and address the title's decision variable. Material that belongs to the same product or project but answers a different decision variable belongs in another script.
 

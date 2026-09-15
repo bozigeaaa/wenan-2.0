@@ -2,7 +2,7 @@
 
 Read `../../references/generation-trigger-registry.md` before drafting. It is the authority for public generation triggers, information relationships, hook timing, conditional placement, oralization, length review, promise validation, ending conditions, and deduplication. This file adds only the evidence and risk boundaries specific to brand proof.
 
-Brand proof must come from verified company capability, responsibility, service evidence, or a documented case cleared for external use. A company role must materially resolve the trust issue inside the content promise; a scene, company paragraph, comparison, or slogan is never required.
+Use user-provided ordinary business information under `../../references/company-soft-placement.md`; do not require separate proof files for everyday company, product, or service copy. Documented cases and high-risk claims still follow their fact rules. A company role must materially resolve the trust issue inside the content promise; a scene, company paragraph, comparison, or slogan is never required.
 
 ## Domain Checks
 

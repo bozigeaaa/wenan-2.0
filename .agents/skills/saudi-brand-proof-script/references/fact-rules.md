@@ -2,7 +2,7 @@
 
 ## Company-Fact Boundaries
 
-Company-confirmed sources may support stable capability statements about Saudi-local manufacturing, regular-stock allocation, parts self-production or supply, local distribution and installation delivery, factory scale, monthly capacity, and installation-team capacity.
+User-provided business information or company-confirmed sources may support ordinary capability statements under `../../references/company-soft-placement.md` about Saudi-local manufacturing, regular-stock allocation, parts self-production or supply, local distribution and installation delivery, factory scale, monthly capacity, and installation-team capacity.
 
 Use any number only with its exact metric and source meaning. Factory area, monthly production capacity, and installation-team size are different facts and must not be merged into a vague “large scale” claim.
 
@@ -14,9 +14,9 @@ Still verify before using:
 
 ## 稳定能力与实时项目变量
 
-**稳定能力** may be stated when supported by company-confirmed sources: local manufacturing, regular-stock allocation, parts self-production or supply, local distribution and installation, confirmed factory-scale/capacity/team statements, and integrated project coordination.
+**稳定能力** follows `../../references/company-soft-placement.md`; use user-provided business information directly without separate proof files: local manufacturing, regular-stock allocation, parts self-production or supply, local distribution and installation, confirmed factory-scale/capacity/team statements, and integrated project coordination.
 
-**实时项目变量** include whether a specific model is in stock, stock quantity, exact lead time, actual installation headcount, configuration, production scheduling, and delivery arrangement. 只有取得对应项目的当期确认资料，才能按资料支持的对象、时间和范围写入；没有当期确认资料时不写，不得用免责句、条件句或 “subject to confirmation” 代替核实。
+**实时项目变量** include whether a specific model is in stock, stock quantity, exact lead time, actual installation headcount, configuration, production scheduling, and delivery arrangement. 当期确认可来自用户明确提供的当前事实，按其对象、时间和范围写入；没有当期确认资料时不写，不得用免责句、条件句或 “subject to confirmation” 代替核实。
 
 Do not turn regular-stock allocation into “all models are always in stock,” or a confirmed installation-team scale into the number assigned to a specific project.
 
