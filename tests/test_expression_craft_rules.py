@@ -123,3 +123,32 @@ def test_expression_rules_preserve_adaptive_structure_and_evidence_strength() ->
     assert_contains(wordlist, "字眼与来源强度匹配", "wordlist strength-matching section")
     assert_contains(wordlist, "要求 / 必须", "requirement-vs-suggestion discipline")
     assert_contains(wordlist, "很可能", "likely-word discipline")
+
+
+def test_direct_expression_has_an_observable_listener_check() -> None:
+    expression = read(EXPRESSION)
+    assert "## 直接表达与听懂检查" in expression
+    assert "标题、开头、正文、公司段和结尾" in expression
+    for item in ("主体或对象", "具体动作或判断", "指代", "因果强度"):
+        assert item in expression
+    assert "不借助内部分析和资料出处" in expression
+    assert "不能只把原句换成同义词" in expression
+    assert "不是每句必须填齐的模板" in expression
+
+
+def test_direct_expression_is_checked_at_drafting_review_and_delivery() -> None:
+    humanizer = PROJECT_ROOT / ".agents/skills/humanizer/SKILL.md"
+    for path in (AGENTS, ROUTER, TRIGGER_REGISTRY, GATE, humanizer):
+        content = read(path)
+        assert "expression-craft.md" in content
+        assert "直接表达与听懂检查" in content, f"Missing direct-expression check: {path}"
+    assert "分析字段只用于内部判断" in read(TRIGGER_REGISTRY)
+
+
+def test_negative_examples_teach_semantic_repair_without_a_phrase_template() -> None:
+    negative = read(NEGATIVE)
+    assert "抽象概括代替具体事实" in negative
+    assert "影响的是同一批货的到场安排" in negative
+    assert "港口订舱条件又决定货物能走哪条路" in negative
+    assert "修复示意，不是可套用句式" in negative
+    assert "主动加入适量口语" not in negative
