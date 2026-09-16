@@ -7,9 +7,9 @@ REF = ROOT / '.agents/skills/references'
 
 def test_oral_style_contract_preserves_gentle_tone_and_fact_boundary():
     text = (REF / 'expression-craft.md').read_text(encoding='utf-8')
-    for term in ('平等、温和的提醒', '反问句禁用', '全文设问最多 2 处', '句子长短按意思和口播节奏安排', '一个明确动作', '不能改变事实命题、限定条件、因果强度或责任关系'):
+    for term in ('平等、直接地说明', '反问句禁用', '全文设问最多 2 处', '句子长短按意思和口播节奏安排', '一个明确动作', '不能改变事实命题、限定条件、因果强度或责任关系'):
         assert term in text, term
-    for stale in ('每 100 字 2–4 处', '开篇钩子必须带其中一个', '合计最多 1 次', '你先这样做', '新闻只作一句背景'):
+    for stale in ('以平等、温和的提醒为主', '第一次出现就接一句白话解释', '每 100 字 2–4 处', '开篇钩子必须带其中一个', '合计最多 1 次', '你先这样做', '新闻只作一句背景'):
         assert stale not in text, stale
 
 

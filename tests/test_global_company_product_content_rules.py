@@ -87,7 +87,7 @@ def test_global_rules_lock_semantic_promise_and_keep_claims_relevant_to_its_answ
     assert_contains(project_rules, "直接回答标题承诺、提供回答所需证据，或解释证据为何改变答案", "claim relevance")
     assert_contains(quality_gate, "直接回答语义承诺、提供回答所需证据，或解释该证据为什么会改变答案", "quality claim relevance")
     assert_contains(placement, "提供所需证据或解释证据为何改变答案", "placement claim relevance")
-    assert_contains(project_rules, "让项目人员和非项目人员都不需要暂停思考或反复回看也能跟上", "broad-audience clarity")
+    assert_contains(project_rules, "让本篇目标受众不需要暂停思考或反复回看也能跟上", "target-audience clarity")
     assert_contains(router, "受众可用结果", "viewer usable result")
     assert_contains(quality_gate, "低认知负荷", "low-cognitive-load gate")
     assert_contains(router, "同一论证链中承担真实角色", "router company bridge")

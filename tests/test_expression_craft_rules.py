@@ -152,3 +152,38 @@ def test_negative_examples_teach_semantic_repair_without_a_phrase_template() -> 
     assert "港口订舱条件又决定货物能走哪条路" in negative
     assert "修复示意，不是可套用句式" in negative
     assert "主动加入适量口语" not in negative
+
+
+def test_audience_filter_preserves_requested_teaching_and_conditional_explanations() -> None:
+    expression = read(EXPRESSION)
+    registry = read(TRIGGER_REGISTRY)
+    assert "以平等、温和的提醒为主" not in read(AGENTS)
+    for document in (read(AGENTS), read(GATE)):
+        assert "让项目人员和非项目人员都" not in document
+    assert "目标受众已经熟悉" in registry
+    assert "用户明确要求教程" in registry
+    assert "按本篇目标受众判断" in expression
+    assert "理解受阻时就近解释" in expression
+    assert "不机械补释" in expression
+
+
+def test_title_review_catches_known_capability_and_unanswered_price_promises() -> None:
+    gate = read(GATE)
+    negative = read(NEGATIVE)
+    assert "受众已知的业务事实" in gate
+    assert "标题句式仍随内容选择" in gate
+    assert "沙特打包箱可以在当地生产" in negative
+    assert "本地交付还差多少钱" in negative
+    assert "正文没有差额依据" in negative
+
+
+def test_transition_review_checks_function_and_repetition_across_paragraphs() -> None:
+    expression = read(EXPRESSION)
+    negative = read(NEGATIVE)
+    assert "尝试删除" in expression
+    assert "语义、衔接和必要停顿" in expression
+    assert "跨段" in expression
+    assert "换词复述" in expression
+    assert "有些运输安排还得重新考虑" in negative
+    assert "以前算过的价格差，也值得再看一眼" in negative
+    assert "把熟悉业务的受众当新手" in negative
