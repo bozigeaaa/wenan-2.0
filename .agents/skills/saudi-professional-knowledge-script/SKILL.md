@@ -26,7 +26,7 @@ Use this as the general professional科普 skill. If the topic is specifically a
 ## Required Sources
 
 - Read `knowledge/AI资料导航索引.md`.
-- Read `knowledge/沙特临建行业认知.xlsx` for Saudi approval, SBC, Civil Defense, SABER/SASO, tax, customs, local content, and project cognition.
+- Read `knowledge/沙特临建行业认知.md` for topic and source lookup on Saudi approval, SBC, Civil Defense, SABER/SASO, tax, customs, local content, and project cognition. Open only the relevant linked entry; these historical notes and homepage links are not current legal verification.
 - Read relevant product and company files when checking a possible placement or when qualified company or product content will be used.
 - Browse current reliable sources when discussing current policy, agencies, public programs, fines, enforcement, market changes, or latest news.
 

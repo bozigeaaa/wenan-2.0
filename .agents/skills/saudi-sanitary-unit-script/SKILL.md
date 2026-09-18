@@ -19,11 +19,11 @@ Before writing or revising a sanitary-unit script, inspect the project navigatio
 
 Prioritize these source files:
 
-- `knowledge/K系列卫生间参数.xlsx` for TBOX/K-series models, dimensions, packing dimensions, configurations, and product parameters.
-- `knowledge/K系列设计文稿.docx` for K-series positioning, product logic, scenario language, and approved product advantages.
-- `knowledge/钧瀚产品优势分级分类总表_v4.xlsx` for advantages, conflict records, reliability level, price/install-time conflicts, and brand-name mapping.
-- `knowledge/深圳钧瀚科技有限公司企业基础概况.docx` for company role, sanitary product line, Saudi delivery, and sales cognition.
-- `knowledge/TBOX 移动卫浴.pdf`, `knowledge/模块化卫生间应用介绍.pdf`, `knowledge/拆装式移动厕所.pdf`, and `knowledge/拆装式移动厕所配置表.pdf` for visuals, product appearance, layout, scenario, and brochure style. Do not use image-heavy PDFs as the only parameter source.
+- `knowledge/K系列设计文稿.md` first for qualitative features, function selection, and model/name matching.
+- Read `knowledge/K系列卫生间参数.md` only when the current script needs a specific model configuration, exact dimensions, packing dimensions, or ventilation configuration that the first source does not resolve. Retrieve only the relevant original row(s), using model + product name + original row together. Do not read the full parameter table merely because the topic concerns sanitary units, or insert dimensions/equipment lists that do not answer the script's content promise. Performance claims still require corresponding technical evidence.
+- Read `knowledge/钧瀚产品优势分级分类总表_v4.md` only when tracing an old record or checking price, installation-time, naming, or other conflicts; ordinary function selection uses the product files above.
+- `knowledge/深圳钧瀚科技有限公司企业基础概况.md` for company role, sanitary product line, Saudi delivery, and sales cognition.
+- `knowledge/模块化卫浴产品与场景.md` and `knowledge/拆装式卫浴配置补充.md` for retained brochure features, configurations, and scenarios. These are qualitative extracts with original page references; do not transfer their configurations to K-series models or infer performance/case evidence from brochure images.
 
 If a requested model, size, install time, price, material, or compliance claim is not confirmed in local sources, do not invent it. Verify it or leave it out.
 

@@ -24,7 +24,7 @@ Create Chinese short-video scripts that help 东方骆驼 accounts break out of 
 Before writing:
 
 - Read `knowledge/AI资料导航索引.md` when local Saudi industry facts may matter.
-- Read `knowledge/沙特临建行业认知.xlsx` for Saudi construction, temporary camp, approval, government, supply-chain, or engineering context.
+- Read `knowledge/沙特临建行业认知.md` for Saudi construction, temporary camp, approval, government, supply-chain, or engineering context.
 - Read the relevant company, product, and claim-evidence sources when checking a possible placement or using company or product content in the story.
 - Browse current reliable sources when the topic involves today's news, current policy, trending events, public figures, sports, visas, labor rules, prices, market changes, or anything likely to change.
 

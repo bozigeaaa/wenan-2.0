@@ -25,11 +25,11 @@ Before writing or revising a script, inspect the project navigation file when av
 
 For Saudi fire-safety topics, prioritize these source files:
 
-- `沙特临建行业认知.xlsx` for SBC 801, Civil Defense / Salamah, Saudi compliance, and topic boundaries.
-- `钧瀚产品优势分级分类总表_v4.xlsx` for advantages, conflict records, and information reliability.
-- `拼装房屋产品介绍.txt` for prefab house / packing house product facts.
-- `薄壁轻钢房屋产品介绍.txt` when the requested topic is light steel housing.
-- `东方骆驼公司简介.txt` and `深圳钧瀚科技有限公司企业基础概况.docx` when checking or using a company or product placement.
+- `沙特临建行业认知.md` for SBC 801, Civil Defense / Salamah, Saudi compliance, and topic boundaries.
+- `钧瀚产品优势分级分类总表_v4.md` only when checking a source record or conflict; legacy grades do not prove current reliability.
+- `拼装房屋产品介绍.md` for prefab house / packing house product facts.
+- `薄壁轻钢房屋产品介绍.md` when the requested topic is light steel housing.
+- `深圳钧瀚科技有限公司企业基础概况.md` when company facts are needed; `东方骆驼公司简介.md` only for contact details.
 
 If a requested fact is not in the local sources, browse official or reliable sources before using it. If it remains unsupported, omit it from the script, obtain supporting evidence, narrow the content promise, or stop; a confirmation note does not make the claim publishable.
 

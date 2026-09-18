@@ -96,14 +96,14 @@ def test_readme_skill_list_matches_current_state() -> None:
 def test_knowledge_index_core_files_exist() -> None:
     index = read(KNOWLEDGE_INDEX)
     core_files = [
-        "沙特临建行业认知.xlsx",
-        "钧瀚产品优势分级分类总表_v4.xlsx",
-        "拼装房屋产品介绍.txt",
-        "薄壁轻钢房屋产品介绍.txt",
-        "K系列卫生间参数.xlsx",
-        "K系列设计文稿.docx",
-        "深圳钧瀚科技有限公司企业基础概况.docx",
-        "东方骆驼公司简介.txt",
+        "沙特临建行业认知.md",
+        "钧瀚产品优势分级分类总表_v4.md",
+        "拼装房屋产品介绍.md",
+        "薄壁轻钢房屋产品介绍.md",
+        "K系列卫生间参数.md",
+        "K系列设计文稿.md",
+        "深圳钧瀚科技有限公司企业基础概况.md",
+        "东方骆驼公司简介.md",
     ]
     for name in core_files:
         assert (PROJECT_ROOT / "knowledge" / name).exists(), f"knowledge file missing: {name}"
@@ -118,3 +118,29 @@ def test_navigation_path_prefix_is_consistent() -> None:
             assert m.group(1).startswith("knowledge/"), (
                 f"{skill_md.relative_to(PROJECT_ROOT)} uses non-qualified navigation path: {m.group(1)}"
             )
+
+
+def test_current_knowledge_references_and_conversion_outputs_exist() -> None:
+    import json
+    manifest = json.loads(read(PROJECT_ROOT / "knowledge/资料转换记录.json"))
+    for source in manifest["sources"]:
+        assert source["sha256"], source["original"]
+        for output in source["outputs"]:
+            assert (PROJECT_ROOT / output).is_file(), output
+
+    active = [PROJECT_ROOT / "AGENTS.md", README]
+    active += list(SKILLS_ROOT.rglob("SKILL.md"))
+    active += list(SHARED_REFS.glob("*.md"))
+    for path in active:
+        for ref in re.findall(r'knowledge/[^`"\n<>，；]+?\.(?:md|json|xlsx|docx|pdf|txt)', read(path)):
+            assert (PROJECT_ROOT / ref).is_file(), f"{path.name} -> {ref}"
+
+    ledger = json.loads(read(PROJECT_ROOT / "content-state/company-claim-evidence-ledger.json"))
+    for source in ledger["authoritative_sources"]:
+        assert (PROJECT_ROOT / source["file"]).is_file(), source["file"]
+
+    for path in (PROJECT_ROOT / "knowledge").rglob("*.md"):
+        # Match link targets including balanced parentheses in Chinese filenames.
+        for target in re.findall(r"\]\(((?:[^()\n]|\([^()\n]*\))*)\)", read(path)):
+            if "://" not in target and not target.startswith("#"):
+                assert (path.parent / target.split("#", 1)[0]).is_file(), f"{path.name} -> {target}"

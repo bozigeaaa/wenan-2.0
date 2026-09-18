@@ -19,11 +19,11 @@ Before writing or revising a light-steel script, inspect the project navigation 
 
 Prioritize these source files:
 
-- `knowledge/薄壁轻钢房屋产品介绍.txt` for product structure, materials, wall/roof/envelope system, door/window, and house-type facts.
-- `knowledge/沙特临建行业认知.xlsx` for Saudi light-steel industry cognition, approval, site, climate, and compliance boundaries.
-- `knowledge/钧瀚产品优势分级分类总表_v4.xlsx` for advantages, reliability level, and conflict records.
-- `knowledge/深圳钧瀚科技有限公司企业基础概况.docx` for company role, sales cognition, delivery logic, and Saudi project boundaries.
-- `knowledge/东方骆驼公司简介.txt` for Eastern Camel local factory, brand positioning, and Saudi local delivery.
+- `knowledge/薄壁轻钢房屋产品介绍.md` for product structure, material uses, and house-type matching. Read only the section needed for the current content promise. Its material descriptions do not establish whole-building performance, certification, or guaranteed deployment results. For thickness and structural-performance topics, follow the existing C04/C05/C06 conflict records to the corresponding confirmed material schedule or design evidence; do not restore removed claims from older summaries.
+- `knowledge/沙特临建行业认知.md` for Saudi light-steel industry cognition, approval, site, climate, and compliance boundaries.
+- Read `knowledge/钧瀚产品优势分级分类总表_v4.md` only for an old source ID, unique technical lead, or conflict; use the product file for ordinary features.
+- `knowledge/深圳钧瀚科技有限公司企业基础概况.md` for company role, sales cognition, delivery logic, and Saudi project boundaries.
+- Brand, factory, and delivery facts are maintained in the company file above; `knowledge/东方骆驼公司简介.md` is only a contact-detail entry.
 
 If a requested light-steel parameter is not confirmed in local sources, do not invent or paraphrase it into a weaker claim. Omit it from the script, obtain supporting evidence, narrow the content promise, or stop.
 

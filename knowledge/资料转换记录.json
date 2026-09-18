@@ -1,0 +1,1601 @@
+{
+  "converted_on": "2026-09-17",
+  "sources": [
+    {
+      "original": "K系列设计文稿.docx",
+      "sha256": "3113fbb1b45d537d537466fbef6440f20f6d45584551f2f21540185f6e39ac4f",
+      "outputs": [
+        "knowledge/K系列设计文稿.md"
+      ],
+      "kind": "docx",
+      "paragraphs": 17,
+      "tables": 1,
+      "text_fragments_checked": 53
+    },
+    {
+      "original": "深圳钧瀚科技有限公司企业基础概况.docx",
+      "sha256": "20d0d39371ca3b319cb8f5d05cfb6a2a73e7343ba254a4d43e9fb34eaad0302f",
+      "outputs": [
+        "knowledge/深圳钧瀚科技有限公司企业基础概况.md"
+      ],
+      "kind": "docx",
+      "paragraphs": 149,
+      "tables": 20,
+      "text_fragments_checked": 607
+    },
+    {
+      "original": "东方骆驼公司简介.txt",
+      "sha256": "a8301011dd7222eb9ed4e3ce93500c58f9f0b67068aac23f0ee07d2652f6ecb3",
+      "outputs": [
+        "knowledge/东方骆驼公司简介.md"
+      ],
+      "kind": "txt",
+      "lines_checked": 9
+    },
+    {
+      "original": "拼装房屋产品介绍.txt",
+      "sha256": "7acb172838cbcd5eace5b40c64e87809e67fd8f9eb874d8bedf333464bba24d4",
+      "outputs": [
+        "knowledge/拼装房屋产品介绍.md"
+      ],
+      "kind": "txt",
+      "lines_checked": 140
+    },
+    {
+      "original": "薄壁轻钢房屋产品介绍.txt",
+      "sha256": "a2aebe29762f9b11c73f193a951e5477c9402f4df49f603c1ac87dfb7876f0b3",
+      "outputs": [
+        "knowledge/薄壁轻钢房屋产品介绍.md"
+      ],
+      "kind": "txt",
+      "lines_checked": 46,
+      "post_conversion_cleanup": {
+        "date": "2026-09-17",
+        "purpose": "按用户延续要求清理产品正文中影响文案生成的噪音",
+        "retained": "G550冷弯薄壁C型钢、150mm×100mm矩形方通原记录、墙体/地面/屋面构造、相关材料用途、户型及场景检索；保留原文通常/方案配置的条件",
+        "removed": "英文重复标题、通用构件百科、踢脚线与胶水的低相关描述、宣传形容词、无甲醛/防火达标/长期不空鼓等无对应证明的效果表述、抗风及吊装即用承诺；正文移除已登记冲突的厚度范围和抗震数值",
+        "conflict_handling": "指向现有C04/C05/C06，不自行裁决或写入替代数值；水泥纤维板与硅酸钙板的原名称混用保留为待确认边界",
+        "verification": "清理前后核对结构材料、地面层次、屋面形式与6种户型；原转换行数统计属于清理前的历史记录。"
+      }
+    },
+    {
+      "original": "K系列卫生间参数.xlsx",
+      "sha256": "979e12178ae47821c242e4726a3048608e47fb033391db8a6623ae547b114b2f",
+      "outputs": [
+        "knowledge/K系列卫生间参数.md"
+      ],
+      "kind": "xlsx",
+      "sheets": [
+        {
+          "name": "K系列卫生间参数",
+          "rows": 13,
+          "columns": 11,
+          "nonempty_cells": 119,
+          "nonempty_rows": 13,
+          "path": "knowledge/K系列卫生间参数.md",
+          "merged_ranges": [
+            "B10:B11",
+            "A1:K1",
+            "B3:B5"
+          ]
+        }
+      ],
+      "post_conversion_cleanup": {
+        "date": "2026-09-17",
+        "purpose": "按用户要求删除影响文案生成的无关信息与噪音",
+        "retained": "11条产品记录的型号、产品名称、外形尺寸、打包尺寸、完整设备清单及原行号；相同排气配置集中保留一次",
+        "removed": "原表标题行、重复字段表头、序号字段、白色框架及墙板颜色、相同门型与观察窗描述、单元格坐标及合并范围标记",
+        "verification": "11条记录的5个核心字段逐项与清理前Markdown一致；11条排气配置相同，合并为一条公共说明。原转换统计记录的是清理前的核对结果。"
+      }
+    },
+    {
+      "original": "沙特临建行业认知.xlsx",
+      "sha256": "27719b1353c822c6b2af3cf3d423c6caa84ba9dfa9b29ded871a878760406233",
+      "outputs": [
+        "knowledge/沙特临建行业认知.md",
+        "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md",
+        "knowledge/行业认知/薄壁轻钢认知.md",
+        "knowledge/行业认知/打包箱认知.md"
+      ],
+      "kind": "xlsx",
+      "sheets": [
+        {
+          "name": "沙特临建认知矩阵(直观备注版)",
+          "rows": 48,
+          "columns": 6,
+          "nonempty_cells": 288,
+          "nonempty_rows": 48,
+          "path": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md",
+          "merged_ranges": []
+        },
+        {
+          "name": "薄壁轻钢认知",
+          "rows": 49,
+          "columns": 9,
+          "nonempty_cells": 282,
+          "nonempty_rows": 47,
+          "path": "knowledge/行业认知/薄壁轻钢认知.md",
+          "merged_ranges": []
+        },
+        {
+          "name": "打包箱认知",
+          "rows": 47,
+          "columns": 9,
+          "nonempty_cells": 282,
+          "nonempty_rows": 47,
+          "path": "knowledge/行业认知/打包箱认知.md",
+          "merged_ranges": []
+        }
+      ]
+    },
+    {
+      "original": "钧瀚产品优势分级分类总表_v4.xlsx",
+      "sha256": "24f1ea294a53d1e236651935f9189c1f4e1cdf2e19f59b27dbfa8e2ab6eabd4f",
+      "outputs": [
+        "knowledge/钧瀚产品优势分级分类总表_v4.md",
+        "knowledge/产品优势/说明与图例.md",
+        "knowledge/产品优势/资产总目录.md",
+        "knowledge/产品优势/优势卖点归纳库.md",
+        "knowledge/产品优势/冲突与去重登记表.md"
+      ],
+      "kind": "xlsx",
+      "sheets": [
+        {
+          "name": "说明与图例",
+          "rows": 43,
+          "columns": 2,
+          "nonempty_cells": 69,
+          "nonempty_rows": 38,
+          "path": "knowledge/产品优势/说明与图例.md",
+          "merged_ranges": []
+        },
+        {
+          "name": "资产总目录",
+          "rows": 24,
+          "columns": 14,
+          "nonempty_cells": 301,
+          "nonempty_rows": 24,
+          "path": "knowledge/产品优势/资产总目录.md",
+          "merged_ranges": []
+        },
+        {
+          "name": "优势卖点归纳库",
+          "rows": 58,
+          "columns": 10,
+          "nonempty_cells": 492,
+          "nonempty_rows": 58,
+          "path": "knowledge/产品优势/优势卖点归纳库.md",
+          "merged_ranges": [
+            "A3:J3",
+            "A26:J26",
+            "A52:J52",
+            "A41:J41",
+            "A11:J11"
+          ]
+        },
+        {
+          "name": "冲突与去重登记表",
+          "rows": 14,
+          "columns": 7,
+          "nonempty_cells": 92,
+          "nonempty_rows": 14,
+          "path": "knowledge/产品优势/冲突与去重登记表.md",
+          "merged_ranges": []
+        }
+      ]
+    },
+    {
+      "original": "TBOX 移动卫浴.pdf",
+      "sha256": "20b49c5bdd93155aeb08894d1b989049548425fbb78b13d947e379023ad4bc27",
+      "outputs": [
+        "knowledge/K系列设计文稿.md",
+        "knowledge/K系列卫生间参数.md"
+      ],
+      "kind": "pdf_selected_text",
+      "pages": 13,
+      "scope": "产品功能与场景已由K系列资料覆盖；不重复保存宣传稿及未确认效果数字。"
+    },
+    {
+      "original": "拆装式移动厕所.pdf",
+      "sha256": "6ebe25d934a369364e17ca954cf98f3dd90be016ef1d6d99cb6c2e38b961191f",
+      "outputs": [
+        "knowledge/拆装式卫浴配置补充.md"
+      ],
+      "kind": "pdf_selected_text",
+      "pages": 8,
+      "scope": "仅保留资料身份与功能检索边界；宝通展示照片不作为本公司证明。"
+    },
+    {
+      "original": "拆装式移动厕所配置表.pdf",
+      "sha256": "e6143b446ad0f6e02853dca0591f62611666b72e1108809b2b5d7545cd43e164",
+      "outputs": [
+        "knowledge/拆装式卫浴配置补充.md"
+      ],
+      "kind": "pdf_selected_text",
+      "pages": 10,
+      "scope": "保留各页功能组合与地面区别，删除旧价格、图片及重复部件明细。"
+    },
+    {
+      "original": "模块化卫生间应用介绍.pdf",
+      "sha256": "bcc8e28009afafa6f553fc79049dc414120c1554fdc1e741171a5ba89d6fbaf0",
+      "outputs": [
+        "knowledge/模块化卫浴产品与场景.md"
+      ],
+      "kind": "pdf_selected_text",
+      "pages": 55,
+      "scope": "保留产品特点、配置和场景，删除图片、重复宣传、案例展示与未经确认效果数字。"
+    },
+    {
+      "original": "钧瀚中文宣传册.pdf",
+      "sha256": "9b7f5a4b31e084386a9a616839769a6b25c41aace0cd3a973471ae10cfab7699",
+      "outputs": [
+        "knowledge/模块化卫浴产品与场景.md"
+      ],
+      "kind": "pdf_selected_text",
+      "pages": 24,
+      "scope": "保留产品系列识别、配置与模块组合，删除图片、重复宣传、旧指标与合作方展示。"
+    }
+  ],
+  "scope": "AI写稿资料格式整理；DOCX/TXT正文与表格保留，Excel逐坐标核对；PDF按用户选择仅保留写稿有用的产品特点、配置和场景。格式转换不提高证据等级。",
+  "validation": "1925个非空单元格逐坐标一致；DOCX全部段落与表格文本、TXT全部行已核对。PDF共110页已筛选，保留要点对照页面复核，不是全文无损转换。",
+  "removed_derived_files": [
+    "K系列卫生间参数_dump.txt",
+    "K系列设计文稿_extracted.txt",
+    "沙特临建行业认知_dump.txt",
+    "钧瀚产品优势分级分类总表_dump.txt",
+    "search_results.txt",
+    "search_shipping.txt"
+  ],
+  "cleanup_batches": [
+    {
+      "date": "2026-09-17",
+      "scope": "用户点名的七份资料及优势、行业认知入口下的七份明细",
+      "files": [
+        "knowledge/钧瀚产品优势分级分类总表_v4.md",
+        "knowledge/模块化卫浴产品与场景.md",
+        "knowledge/拼装房屋产品介绍.md",
+        "knowledge/沙特临建行业认知.md",
+        "knowledge/深圳钧瀚科技有限公司企业基础概况.md",
+        "knowledge/拆装式卫浴配置补充.md",
+        "knowledge/东方骆驼公司简介.md",
+        "knowledge/行业认知/打包箱认知.md",
+        "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md",
+        "knowledge/行业认知/薄壁轻钢认知.md",
+        "knowledge/产品优势/优势卖点归纳库.md",
+        "knowledge/产品优势/冲突与去重登记表.md",
+        "knowledge/产品优势/说明与图例.md",
+        "knowledge/产品优势/资产总目录.md"
+      ],
+      "changes": [
+        "删除对客营销句、通用材料百科、重复字段、销售与询盘模板、未核实竞品判断及行业常规交付承诺",
+        "保留51条优势编号、22个来源编号、12项冲突记录；历史等级不作当前证据",
+        "行业认知47个通用议题及两份各46条入口保留原行映射；76条完全重复正文改为引用",
+        "8类过度强化或无对应条文支持的行业说法改为核验问题，未进行现行法规联网复核",
+        "保留卫浴型号配置与来源页码；公司日常业务及产品结构保留，历史量化口径集中到现有台账"
+      ],
+      "industry_row_mapping": {
+        "knowledge/行业认知/薄壁轻钢认知.md": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            13,
+            13
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            15,
+            15
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            17,
+            17
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            19,
+            19
+          ],
+          [
+            20,
+            20
+          ],
+          [
+            21,
+            21
+          ],
+          [
+            22,
+            22
+          ],
+          [
+            23,
+            23
+          ],
+          [
+            24,
+            24
+          ],
+          [
+            25,
+            25
+          ],
+          [
+            26,
+            26
+          ],
+          [
+            27,
+            28
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            29,
+            30
+          ],
+          [
+            30,
+            31
+          ],
+          [
+            31,
+            32
+          ],
+          [
+            32,
+            33
+          ],
+          [
+            33,
+            34
+          ],
+          [
+            34,
+            35
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            36,
+            37
+          ],
+          [
+            37,
+            38
+          ],
+          [
+            38,
+            39
+          ],
+          [
+            39,
+            40
+          ],
+          [
+            40,
+            41
+          ],
+          [
+            41,
+            42
+          ],
+          [
+            42,
+            43
+          ],
+          [
+            43,
+            44
+          ],
+          [
+            44,
+            45
+          ],
+          [
+            45,
+            46
+          ],
+          [
+            46,
+            47
+          ],
+          [
+            47,
+            48
+          ]
+        ],
+        "knowledge/行业认知/打包箱认知.md": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            26,
+            27
+          ],
+          [
+            27,
+            28
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            29,
+            30
+          ],
+          [
+            30,
+            31
+          ],
+          [
+            31,
+            32
+          ],
+          [
+            32,
+            33
+          ],
+          [
+            33,
+            34
+          ],
+          [
+            34,
+            35
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            36,
+            37
+          ],
+          [
+            37,
+            38
+          ],
+          [
+            38,
+            39
+          ],
+          [
+            39,
+            40
+          ],
+          [
+            40,
+            41
+          ],
+          [
+            41,
+            42
+          ],
+          [
+            42,
+            43
+          ],
+          [
+            43,
+            44
+          ],
+          [
+            44,
+            45
+          ],
+          [
+            45,
+            46
+          ],
+          [
+            46,
+            47
+          ],
+          [
+            47,
+            48
+          ]
+        ]
+      },
+      "validation_scope": "原转换统计是初次转换结果；本轮为经用户授权的内容清理，不再表示原文全文保留。",
+      "checks": [
+        "51条优势编号和来源、旧级别、状态保留",
+        "12项冲突的全部原值和处置保留",
+        "139条原行业记录均有去向，39项未重写通用条目的条件和正文、全部来源网址保留",
+        "两份卫浴资料的配置表逐行一致",
+        "拼装房主要材质与14项规格标识保留"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "scope": "按用户确认的写稿必要性标准精简：影响选择、解释原因、保证准确或提供独有信息；低频内容按需读取",
+      "files": [
+        "knowledge/K系列设计文稿.md",
+        "knowledge/K系列卫生间参数.md",
+        "knowledge/拼装房屋产品介绍.md",
+        "knowledge/薄壁轻钢房屋产品介绍.md",
+        "knowledge/深圳钧瀚科技有限公司企业基础概况.md",
+        "knowledge/东方骆驼公司简介.md",
+        "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md",
+        "knowledge/沙特临建行业认知.md",
+        "knowledge/行业认知/薄壁轻钢认知.md",
+        "knowledge/行业认知/打包箱认知.md",
+        "knowledge/产品优势/优势卖点归纳库.md",
+        "knowledge/产品优势/冲突与去重登记表.md",
+        "knowledge/AI资料导航索引.md",
+        "knowledge/钧瀚产品优势分级分类总表_v4.md",
+        "knowledge/产品优势/资产总目录.md"
+      ],
+      "changes": [
+        "K系列配置只在参数文件维护，11条款式与设备保留；尺寸合并为3组置于专题节",
+        "移除拼装房加工尺寸和构件编号；保留功能、构造差异及相关材料专题入口",
+        "公司主体与业务统一到企业基础概况，品牌简介改为入口；沿革及五金明细移到末节",
+        "行业47个议题改成待核验的问题与来源线索，保留75处网址；两产品目录合并共同入口",
+        "优势库改成事实入口与核验记录，历史等级移入本记录；修正品牌主体、旧裁决与失效指向"
+      ],
+      "legacy_advantage_metadata": {
+        "G01": {
+          "source": "U4,U2,U6",
+          "row": "4",
+          "legacy_status": "B/定稿"
+        },
+        "G02": {
+          "source": "U4",
+          "row": "5",
+          "legacy_status": "B/定稿"
+        },
+        "G03": {
+          "source": "U2,U5,U4",
+          "row": "6",
+          "legacy_status": "B/定稿"
+        },
+        "G04": {
+          "source": "U5",
+          "row": "7",
+          "legacy_status": "B/定稿"
+        },
+        "G05": {
+          "source": "U3,U4",
+          "row": "8",
+          "legacy_status": "B/定稿"
+        },
+        "G06": {
+          "source": "U4,U5",
+          "row": "9",
+          "legacy_status": "B/定稿"
+        },
+        "G07": {
+          "source": "U5,O9",
+          "row": "10",
+          "legacy_status": "B/定稿"
+        },
+        "L01": {
+          "source": "U1,U2",
+          "row": "12",
+          "legacy_status": "B/定稿"
+        },
+        "L02": {
+          "source": "U1,O1",
+          "row": "13",
+          "legacy_status": "A/定稿"
+        },
+        "L03": {
+          "source": "U1,U6,O1",
+          "row": "14",
+          "legacy_status": "B/定稿"
+        },
+        "L04": {
+          "source": "U1,U6",
+          "row": "15",
+          "legacy_status": "A-/定稿"
+        },
+        "L05": {
+          "source": "U1,U6",
+          "row": "16",
+          "legacy_status": "B/定稿"
+        },
+        "L06": {
+          "source": "U6,U3,O1",
+          "row": "17",
+          "legacy_status": "B/定稿"
+        },
+        "L07": {
+          "source": "U1,U6",
+          "row": "18",
+          "legacy_status": "B/定稿"
+        },
+        "L08": {
+          "source": "U6",
+          "row": "19",
+          "legacy_status": "B/定稿"
+        },
+        "L09": {
+          "source": "U1,U6",
+          "row": "20",
+          "legacy_status": "B/定稿"
+        },
+        "L10": {
+          "source": "U6,U5",
+          "row": "21",
+          "legacy_status": "B/定稿"
+        },
+        "L11": {
+          "source": "U6",
+          "row": "22",
+          "legacy_status": "B/定稿"
+        },
+        "L12": {
+          "source": "U6,U1",
+          "row": "23",
+          "legacy_status": "B/定稿"
+        },
+        "L13": {
+          "source": "U6",
+          "row": "24",
+          "legacy_status": "B/定稿"
+        },
+        "L14": {
+          "source": "U1,O3",
+          "row": "25",
+          "legacy_status": "A/定稿"
+        },
+        "K01": {
+          "source": "U6,U1",
+          "row": "27",
+          "legacy_status": "B/定稿"
+        },
+        "K02": {
+          "source": "U6,U1,O5",
+          "row": "28",
+          "legacy_status": "A/定稿"
+        },
+        "K03": {
+          "source": "U6,U1",
+          "row": "29",
+          "legacy_status": "A-/定稿"
+        },
+        "K04": {
+          "source": "U6,U1",
+          "row": "30",
+          "legacy_status": "B/定稿"
+        },
+        "K05": {
+          "source": "U6",
+          "row": "31",
+          "legacy_status": "B/定稿"
+        },
+        "K06": {
+          "source": "U6,U1",
+          "row": "32",
+          "legacy_status": "B/定稿"
+        },
+        "K07": {
+          "source": "U6,O4",
+          "row": "33",
+          "legacy_status": "B/定稿"
+        },
+        "K08": {
+          "source": "U6,O4",
+          "row": "34",
+          "legacy_status": "A-/定稿"
+        },
+        "K09": {
+          "source": "U1",
+          "row": "35",
+          "legacy_status": "B/定稿"
+        },
+        "K10": {
+          "source": "U6,O4",
+          "row": "36",
+          "legacy_status": "B/定稿"
+        },
+        "K11": {
+          "source": "U6",
+          "row": "37",
+          "legacy_status": "B/定稿"
+        },
+        "K12": {
+          "source": "U1",
+          "row": "38",
+          "legacy_status": "B/定稿"
+        },
+        "K13": {
+          "source": "U6,U1",
+          "row": "39",
+          "legacy_status": "B/定稿"
+        },
+        "K14": {
+          "source": "U1",
+          "row": "40",
+          "legacy_status": "C/草稿"
+        },
+        "S01": {
+          "source": "U1",
+          "row": "42",
+          "legacy_status": "B/定稿"
+        },
+        "S02": {
+          "source": "U1",
+          "row": "43",
+          "legacy_status": "B/定稿"
+        },
+        "S03": {
+          "source": "U1",
+          "row": "44",
+          "legacy_status": "A-/定稿"
+        },
+        "S04": {
+          "source": "U1",
+          "row": "45",
+          "legacy_status": "B/定稿"
+        },
+        "S05": {
+          "source": "U1",
+          "row": "46",
+          "legacy_status": "B/定稿"
+        },
+        "S06": {
+          "source": "U1",
+          "row": "47",
+          "legacy_status": "B/定稿"
+        },
+        "S07": {
+          "source": "U1",
+          "row": "48",
+          "legacy_status": "B/定稿"
+        },
+        "S08": {
+          "source": "U1",
+          "row": "49",
+          "legacy_status": "B/定稿"
+        },
+        "S09": {
+          "source": "U1",
+          "row": "50",
+          "legacy_status": "B/定稿"
+        },
+        "S10": {
+          "source": "U1",
+          "row": "51",
+          "legacy_status": "B/定稿"
+        },
+        "B01": {
+          "source": "U5,U2",
+          "row": "53",
+          "legacy_status": "B/定稿"
+        },
+        "B02": {
+          "source": "U5",
+          "row": "54",
+          "legacy_status": "B/定稿"
+        },
+        "B03": {
+          "source": "U5,U2",
+          "row": "55",
+          "legacy_status": "B/定稿"
+        },
+        "B04": {
+          "source": "U5,U2",
+          "row": "56",
+          "legacy_status": "B/定稿"
+        },
+        "B05": {
+          "source": "U5",
+          "row": "57",
+          "legacy_status": "B/定稿"
+        },
+        "B06": {
+          "source": "U5",
+          "row": "58",
+          "legacy_status": "B/定稿"
+        }
+      },
+      "legacy_asset_metadata": {
+        "U1（3）": {
+          "legacy_status": "B/定稿"
+        },
+        "U2（4）": {
+          "legacy_status": "B/定稿"
+        },
+        "U3（5）": {
+          "legacy_status": "C/草稿"
+        },
+        "U4（6）": {
+          "legacy_status": "B/定稿"
+        },
+        "U5（7）": {
+          "legacy_status": "B/定稿"
+        },
+        "U6（8）": {
+          "legacy_status": "A-/定稿"
+        },
+        "O1（9）": {
+          "legacy_status": "A/定稿"
+        },
+        "O2（10）": {
+          "legacy_status": "B/定稿"
+        },
+        "O3（11）": {
+          "legacy_status": "A/定稿"
+        },
+        "O4（12）": {
+          "legacy_status": "B/定稿"
+        },
+        "O5（13）": {
+          "legacy_status": "A/定稿"
+        },
+        "O6（14）": {
+          "legacy_status": "B/定稿"
+        },
+        "O7（15）": {
+          "legacy_status": "B/定稿"
+        },
+        "O8（16）": {
+          "legacy_status": "B/定稿"
+        },
+        "O9（17）": {
+          "legacy_status": "B/定稿"
+        },
+        "O10（18）": {
+          "legacy_status": "A/定稿"
+        },
+        "A1（19）": {
+          "legacy_status": "A/定稿"
+        },
+        "A2（20）": {
+          "legacy_status": "B/定稿"
+        },
+        "A3（21）": {
+          "legacy_status": "B/定稿"
+        },
+        "A4（22）": {
+          "legacy_status": "A/定稿"
+        },
+        "A5（23）": {
+          "legacy_status": "A/定稿"
+        },
+        "A6（24）": {
+          "legacy_status": "A/定稿"
+        }
+      },
+      "verification": "本轮不做现行法规核验，不提高原资料证据等级；来源和原行信息用于追溯，不表示旧全文仍保留。"
+    },
+    {
+      "date": "2026-09-17",
+      "scope": "用户确认D1-D2、M1-M5及5个专项查询议题；整条删除0个",
+      "files": [
+        "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md",
+        "knowledge/沙特临建行业认知.md",
+        "knowledge/行业认知/打包箱认知.md"
+      ],
+      "removed_details": {
+        "D1": "R2规范类别枚举",
+        "D2": "R7电子发票QR、UUID、XML系统字段检索提示"
+      },
+      "merged_groups": [
+        {
+          "title": "消防许可与申报责任",
+          "original_ids": [
+            "R4",
+            "R48"
+          ]
+        },
+        {
+          "title": "环境许可与废弃物清运",
+          "original_ids": [
+            "R14",
+            "R15"
+          ]
+        },
+        {
+          "title": "国际项目住宿参考",
+          "original_ids": [
+            "R19",
+            "R20"
+          ]
+        },
+        {
+          "title": "项目环境与钢结构防腐",
+          "original_ids": [
+            "R26",
+            "R41"
+          ]
+        },
+        {
+          "title": "模块化交付与转场复用",
+          "original_ids": [
+            "R27",
+            "R29"
+          ]
+        }
+      ],
+      "special_query_ids": [
+        "R7",
+        "R11",
+        "R16",
+        "R21",
+        "R22"
+      ],
+      "theme_count": 42,
+      "original_item_count": 47,
+      "verification": "除D1与D2外，逐个原编号的正文及来源原样保留；75处网址引用、59个不同网址、47个原锚点保留。本轮仅整理，不表示行业核验完成。"
+    }
+  ],
+  "user_verification_confirmation": {
+    "date": "2026-09-17",
+    "confirmed_by": "user",
+    "scope": "用户提供的公司与产品文档已由用户核验，按明确记载使用，不因旧待核验标记重复要求证明。",
+    "exception": "临建行业认知及其相关矩阵/产品入口仍需单独核验",
+    "boundary": "不自动裁决相互冲突的值，不将未记载内容变成事实，不扩大日期、项目、型号或适用条件。",
+    "pending_industry_topics": 47,
+    "url_references": 75,
+    "distinct_urls": 59,
+    "industry_theme_count": 42,
+    "count_note": "47为保留的原议题编号数量，当前按42个主题分组；不是已核验或减少的事实数量。"
+  },
+  "industry_verification": {
+    "checked_on": "2026-09-18",
+    "scope": "剩余45个原R条目均完成公开来源核查；首批已核验R27、R29保持不变。保留42主题、47原编号，不宣称所有条目已通过。",
+    "counts": {
+      "verified_limited": 20,
+      "partial": 22,
+      "unverified": 5,
+      "not_reviewed": 0,
+      "total_original_items": 47
+    },
+    "verified_limited": [
+      "R6",
+      "R7",
+      "R11",
+      "R12",
+      "R13",
+      "R19",
+      "R20",
+      "R21",
+      "R22",
+      "R23",
+      "R24",
+      "R25",
+      "R27",
+      "R28",
+      "R29",
+      "R30",
+      "R35",
+      "R36",
+      "R42",
+      "R43"
+    ],
+    "partial": [
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R8",
+      "R9",
+      "R10",
+      "R14",
+      "R15",
+      "R16",
+      "R17",
+      "R18",
+      "R26",
+      "R31",
+      "R38",
+      "R39",
+      "R40",
+      "R41",
+      "R45",
+      "R46",
+      "R47",
+      "R48"
+    ],
+    "unverified": [
+      "R32",
+      "R33",
+      "R34",
+      "R37",
+      "R44"
+    ],
+    "remaining_not_fully_verified": 27,
+    "scope_note": "已核验仅指条目明确列出的有限命题和证据强度；部分核验及未能核验条目保留待补项。通用定义、公开摘要、服务说明不代替法规全文、现行受控文件、合同或项目设计。user_verification_confirmation中的47条/75网址是用户确认时历史快照。",
+    "previous_batch": {
+      "checked_on": "2026-09-17",
+      "counts": {
+        "verified_limited": 2,
+        "partial": 5,
+        "not_reviewed": 40,
+        "total_original_items": 47
+      },
+      "verified_limited": [
+        "R27",
+        "R29"
+      ]
+    },
+    "access": {
+      "method_note": "逐条核查来源及其证明范围，失败后已实际执行Firecrawl备用请求；content_returned仅指取得内容，不代表结论核验通过。正文、摘要、目录、检索内容、错误页及受限访问分别标注。",
+      "firecrawl_attempts": [
+        {
+          "url": "https://sbc.gov.sa/En/BC/Pages/BuildingCode/BC.aspx?year=2024",
+          "method": "Firecrawl scrape",
+          "status": "failed",
+          "error": "ERR_TUNNEL_CONNECTION_FAILED"
+        },
+        {
+          "url": "https://balady.gov.sa/ar/services/%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1-%D8%B1%D8%AE%D8%B5%D8%A9-%D8%B3%D9%83%D9%86-%D8%AC%D9%85%D8%A7%D8%B9%D9%8A-%D9%84%D9%84%D8%A3%D9%81%D8%B1%D8%A7%D8%AF?page=1",
+          "method": "Firecrawl scrape",
+          "status": "failed",
+          "error": "ERR_TUNNEL_CONNECTION_FAILED"
+        },
+        {
+          "url": "https://saber.sa/",
+          "method": "Firecrawl scrape",
+          "status": "content_returned"
+        },
+        {
+          "url": "https://998.gov.sa/vazo/Page/Services/1/",
+          "method": "Firecrawl scrape",
+          "status": "failed",
+          "error": "ERR_TUNNEL_CONNECTION_FAILED"
+        },
+        {
+          "url": "https://www.nfpa.org/codes-and-standards/nfpa-90a-standard-development/90a",
+          "method": "Firecrawl scrape",
+          "status": "content_returned"
+        },
+        {
+          "url": "https://www.nfpa.org/codes-and-standards/nfpa-101-standard-development/101",
+          "method": "Firecrawl scrape",
+          "status": "content_returned"
+        },
+        {
+          "url": "https://www.qiwa.sa/en/business-owners/manage-establishment/what-nitaqat-and-how-it-calculated",
+          "method": "Firecrawl scrape",
+          "status": "request_rejected"
+        },
+        {
+          "url": "https://mwan.gov.sa/en/permit-and-license-platform",
+          "method": "Firecrawl scrape",
+          "status": "failed",
+          "error": "ERR_CONNECTION_CLOSED"
+        },
+        {
+          "url": "https://markshub.ul.com/learn-about-ul-marks",
+          "method": "Firecrawl scrape",
+          "status": "content_returned"
+        },
+        {
+          "url": "https://www.hrsd.gov.sa/en/knowledge-centre/labor-law",
+          "method": "Firecrawl scrape",
+          "status": "http_404"
+        },
+        {
+          "url": "https://publications.iom.int/books/migrant-worker-guidelines-employers-checklist-migrant-workers-accommodations",
+          "method": "Firecrawl scrape",
+          "status": "content_returned"
+        },
+        {
+          "url": "https://balady.gov.sa/en/services/issuance-health-certificate",
+          "method": "Firecrawl scrape",
+          "status": "failed",
+          "error": "request_failed_or_50s_timeout"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s40098-021-00555-2",
+          "method": "Firecrawl scrape",
+          "status": "content_returned"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41598-024-69541-x",
+          "method": "Firecrawl scrape",
+          "status": "content_returned"
+        },
+        {
+          "url": "https://www.neom.com/content/dam/neom/about/coc/code-of-conduct/view-suppliers-code-conduct.pdf",
+          "method": "Firecrawl scrape",
+          "status": "http_404"
+        },
+        {
+          "url": "https://www.cst.gov.sa/en/regulations-and-licenses/directories/licenses-directory",
+          "method": "Firecrawl scrape",
+          "status": "directory_shell_only"
+        },
+        {
+          "url": "https://www.redseaglobal.com/documents/d/guest/supplier-code-of-conduct-english?download=1",
+          "method": "Firecrawl scrape",
+          "status": "http_404"
+        },
+        {
+          "url": "https://mwan.gov.sa/web/content/6591315",
+          "method": "Firecrawl scrape",
+          "status": "failed",
+          "error": "request_failed_or_50s_timeout"
+        },
+        {
+          "url": "https://www.modon.gov.sa/",
+          "method": "Firecrawl scrape",
+          "status": "request_rejected"
+        },
+        {
+          "url": "https://www.rcjy.gov.sa/",
+          "method": "Firecrawl scrape",
+          "status": "failed",
+          "error": "request_failed_or_50s_timeout"
+        },
+        {
+          "url": "https://www.ahrinet.org/news-events/news/ahri-certification-program-expands-test-conditions-enable-greater-global-efficiency",
+          "method": "Firecrawl scrape",
+          "status": "content_returned"
+        },
+        {
+          "url": "https://dust.ncm.gov.sa/",
+          "method": "Firecrawl scrape",
+          "status": "content_returned"
+        },
+        {
+          "url": "https://www.vision2030.gov.sa/en/explore/programs/national-industrial-development-and-logistics-program",
+          "method": "Firecrawl scrape",
+          "status": "content_returned"
+        },
+        {
+          "url": "https://momah.gov.sa/",
+          "method": "Firecrawl scrape",
+          "status": "content_returned"
+        },
+        {
+          "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7b1c33b7-c2af-4c88-bb3e-ab5700b28ae4/1",
+          "method": "Firecrawl scrape",
+          "status": "failed",
+          "error": "ERR_TUNNEL_CONNECTION_FAILED"
+        },
+        {
+          "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/655fdb42-8c96-422b-b8c4-b04f0095c94c/1",
+          "method": "Firecrawl scrape",
+          "status": "failed",
+          "error": "request_failed_or_50s_timeout"
+        },
+        {
+          "url": "https://www.se.com.sa/-/media/sec/Electricity-Information/Saudi-Arabian-Distribution-Code.ashx",
+          "method": "Firecrawl scrape",
+          "status": "http_404"
+        },
+        {
+          "url": "https://sbc.gov.sa/en/BC/Pages/BuildingCode/BCDetails.aspx?codeId=801&year=2024",
+          "method": "Firecrawl scrape",
+          "status": "failed",
+          "error": "ERR_TUNNEL_CONNECTION_FAILED"
+        }
+      ]
+    },
+    "changes": [
+      "补全剩余45条核验状态、结论、范围与缺口",
+      "更新2026年夏季直接日晒作业公告及Nitaqat指南入口",
+      "更正ISO 14001当前出版版本并保留证书过渡边界",
+      "区分T3性能工况与52摄氏度可运行测试",
+      "保留未取得的消防及工程规范正文缺口",
+      "标出5项合同、受控版本或项目设计证据缺口"
+    ],
+    "item_review": [
+      {
+        "id": "R2",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r2"
+      },
+      {
+        "id": "R3",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r3"
+      },
+      {
+        "id": "R4",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r4"
+      },
+      {
+        "id": "R5",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r5"
+      },
+      {
+        "id": "R6",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r6"
+      },
+      {
+        "id": "R7",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r7"
+      },
+      {
+        "id": "R8",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r8"
+      },
+      {
+        "id": "R9",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r9"
+      },
+      {
+        "id": "R10",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r10"
+      },
+      {
+        "id": "R11",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r11"
+      },
+      {
+        "id": "R12",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r12"
+      },
+      {
+        "id": "R13",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r13"
+      },
+      {
+        "id": "R14",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r14"
+      },
+      {
+        "id": "R15",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r15"
+      },
+      {
+        "id": "R16",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r16"
+      },
+      {
+        "id": "R17",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r17"
+      },
+      {
+        "id": "R18",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r18"
+      },
+      {
+        "id": "R19",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r19"
+      },
+      {
+        "id": "R20",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r20"
+      },
+      {
+        "id": "R21",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r21"
+      },
+      {
+        "id": "R22",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r22"
+      },
+      {
+        "id": "R23",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r23"
+      },
+      {
+        "id": "R24",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r24"
+      },
+      {
+        "id": "R25",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r25"
+      },
+      {
+        "id": "R26",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r26"
+      },
+      {
+        "id": "R28",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r28"
+      },
+      {
+        "id": "R30",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r30"
+      },
+      {
+        "id": "R31",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r31"
+      },
+      {
+        "id": "R32",
+        "status": "未能核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r32"
+      },
+      {
+        "id": "R33",
+        "status": "未能核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r33"
+      },
+      {
+        "id": "R34",
+        "status": "未能核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r34"
+      },
+      {
+        "id": "R35",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r35"
+      },
+      {
+        "id": "R36",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r36"
+      },
+      {
+        "id": "R37",
+        "status": "未能核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r37"
+      },
+      {
+        "id": "R38",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r38"
+      },
+      {
+        "id": "R39",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r39"
+      },
+      {
+        "id": "R40",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r40"
+      },
+      {
+        "id": "R41",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r41"
+      },
+      {
+        "id": "R42",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r42"
+      },
+      {
+        "id": "R43",
+        "status": "已核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r43"
+      },
+      {
+        "id": "R44",
+        "status": "未能核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r44"
+      },
+      {
+        "id": "R45",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r45"
+      },
+      {
+        "id": "R46",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r46"
+      },
+      {
+        "id": "R47",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r47"
+      },
+      {
+        "id": "R48",
+        "status": "部分核验",
+        "checked_on": "2026-09-18",
+        "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md#r48"
+      }
+    ],
+    "evidence_location": "knowledge/行业认知/沙特临建认知矩阵(直观备注版).md"
+  }
+}

@@ -38,8 +38,8 @@ Browse for unverified hotspot facts or new substantive developments; reuse facts
 Also inspect project sources when industry framing is needed:
 
 - `knowledge/AI资料导航索引.md`
-- `knowledge/沙特临建行业认知.xlsx`
-- `knowledge/钧瀚产品优势分级分类总表_v4.xlsx` and the relevant product source for a user-selected, fit-approved product; use ordinary company business information under `company-soft-placement.md`; read additional company sources only when needed for this topic.
+- `knowledge/沙特临建行业认知.md`
+- Read the relevant product source for the user-selected, fit-approved product. Open `knowledge/钧瀚产品优势分级分类总表_v4.md` only to trace an old record or resolve a conflict; ordinary company information follows `company-soft-placement.md`, with additional sources only when needed.
 
 ## Workflow
 

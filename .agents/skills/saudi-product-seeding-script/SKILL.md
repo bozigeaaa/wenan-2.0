@@ -44,9 +44,9 @@ Factory area and `15000㎡` are only relevant when the point is local manufactur
 ## Required Sources
 
 - Read `knowledge/AI资料导航索引.md`.
-- Read `knowledge/钧瀚产品优势分级分类总表_v4.xlsx` for verified advantages, reliability level, conflict records, and product/brand mapping.
+- Read the relevant company/product file through the navigation index. Only when tracing an old record or resolving a conflict, open `knowledge/钧瀚产品优势分级分类总表_v4.md` and the matching ID; historical grades and status are not verification.
 - Read the relevant product fact file before using any product parameter.
-- Read `knowledge/深圳钧瀚科技有限公司企业基础概况.docx` and `knowledge/东方骆驼公司简介.txt` for company/service capabilities when needed.
+- Read `knowledge/深圳钧瀚科技有限公司企业基础概况.md` for company/service capabilities when needed. Read `knowledge/东方骆驼公司简介.md` only for contact details.
 - Browse current reliable sources for current competitor, market, price, policy, or mainstream solution claims.
 
 ## Workflow

@@ -38,7 +38,7 @@ Examples:
 
 If local files conflict:
 
-1. Check `knowledge/钧瀚产品优势分级分类总表_v4.xlsx` for conflict records.
+1. Check `knowledge/钧瀚产品优势分级分类总表_v4.md` for conflict records.
 2. If still unresolved, ask the user to confirm or avoid the exact number.
 3. Do not choose a value because it sounds stronger.
 

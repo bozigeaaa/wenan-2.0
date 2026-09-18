@@ -28,7 +28,7 @@ Use names consistently:
 - Saudi entity references may involve ALJMAL EASTERN INTERNATIONAL INDUSTRIAL COMPANY when supported by source material.
 - Shenzhen Junhan is the China-side company for overseas business, supply-chain integration, procurement, logistics, and product support.
 
-If names conflict across files, check `knowledge/钧瀚产品优势分级分类总表_v4.xlsx`.
+If names conflict across files, check `knowledge/钧瀚产品优势分级分类总表_v4.md`.
 
 ## Permitted Proof Strength
 
